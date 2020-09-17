@@ -1,0 +1,24 @@
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* nav styles */
+#nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 3%;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 5%;
+}
