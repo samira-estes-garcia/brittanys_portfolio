@@ -173,6 +173,10 @@ button {
   font-size: small;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .linkedin,
 .dribbble {
   margin-right: 2%;
