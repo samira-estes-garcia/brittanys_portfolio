@@ -25,6 +25,8 @@ body {
   top: 0;
   position: sticky;
   background-color: white;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 #nav ul {
@@ -51,6 +53,56 @@ body {
 
 .nav-menu li {
   margin-right: 15%;
+}
+
+/* hero  styles */
+.hero {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 7%;
+  padding-bottom: 5%;
+}
+
+.hero h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3.5vw;
+  margin-bottom: 7%;
+}
+
+.hero h2 {
+  font-weight: 100;
+  font-size: 3vw;
+  float: left;
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-right: 42%;
+}
+
+.hero-container {
+  /* display: flex; */
+  background-image: url(../assets/profile-img.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 98% 35%;
+  padding: 40%;
+  /* border: 1px dotted black; */
+}
+
+/* .profile-img {
+  width: 50%;
+} */
+
+/* info paragraphs styles */
+.info-paragraphs {
+  background-color: #e2ebff;
+  padding: 5%;
+}
+
+.info-paragraphs p {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: medium;
 }
 
 /* footer */
