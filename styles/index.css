@@ -53,6 +53,25 @@ body {
   margin-right: 15%;
 }
 
+/* mobile nav */
+.hamburger {
+  display: none;
+}
+
+.hamburger-img {
+  width: 3vw;
+  margin-top: 45%;
+  margin-left: -25%;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.nav-menu-mobile {
+  display: none;
+}
+
 /* hero styles */
 .hero-text-container {
   margin-left: 20%;
@@ -129,6 +148,7 @@ body {
 .motivitask-logo {
   width: 57%;
   border-radius: 0 2% 0 0;
+  height: auto;
 }
 
 /* card 2 */
@@ -229,4 +249,14 @@ button:hover {
   text-align: center;
   margin: 5%;
   font-size: small;
+}
+
+/* media queries */
+@media only screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-menu {
+    display: none;
+  }
 }
