@@ -106,7 +106,7 @@ body {
 }
 
 .card {
-  height: 15%;
+  height: auto;
   /* border: 1px solid black; */
   margin-bottom: 7%;
   box-shadow: 3px 3px #f3f3f3;
@@ -149,7 +149,7 @@ body {
 .motivitask-logo {
   width: 57%;
   border-radius: 0 2% 0 0;
-  /* height: auto; */
+  height: auto;
 }
 
 /* card 2 */
@@ -264,7 +264,13 @@ button:hover {
 }
 
 @media only screen and (max-width: 800px) {
-  /* .motivitask-logo {
+  /* .motivitask-mockup {
     width: 25%;
+  }
+  .motivitask-logo {
+    width: 30%;
+  }
+  .altn-mockup {
+    width: 20%;
   } */
 }
