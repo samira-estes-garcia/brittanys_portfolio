@@ -131,6 +131,7 @@ body {
   background-color: #e2ebff;
   text-align: center;
   padding: 5%;
+  width: 50%;
 }
 
 .card > a {
