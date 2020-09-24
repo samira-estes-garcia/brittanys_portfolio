@@ -149,7 +149,7 @@ body {
 .motivitask-logo {
   width: 57%;
   border-radius: 0 2% 0 0;
-  height: auto;
+  /* height: auto; */
 }
 
 /* card 2 */
