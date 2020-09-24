@@ -141,7 +141,7 @@ body {
 .card-img-container {
   display: flex;
   box-shadow: 1px 1px #f3f3f3 inset;
-  align-self: center;
+  align-items: center;
 }
 
 .card-subtitle {
