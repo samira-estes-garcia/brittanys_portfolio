@@ -106,7 +106,7 @@ body {
 }
 
 .card {
-  height: auto;
+  height: 15%;
   /* border: 1px solid black; */
   margin-bottom: 7%;
   box-shadow: 3px 3px #f3f3f3;
@@ -143,19 +143,19 @@ body {
 .motivitask-mockup {
   width: 43%;
   border-radius: 2% 0 0 0;
-  height: auto;
+  /* height: auto; */
 }
 
 .motivitask-logo {
   width: 57%;
   border-radius: 0 2% 0 0;
-  height: auto;
+  /* height: auto; */
 }
 
 /* card 2 */
 .altn-mockup {
   width: 43%;
-  height: auto;
+  /* height: auto; */
 }
 
 /* card 3 */
