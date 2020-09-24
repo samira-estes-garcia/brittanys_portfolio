@@ -106,10 +106,10 @@ body {
 /* card styles */
 
 .card {
-  height: 15%;
+  /* height: 15%; */
   /* border: 1px solid black; */
   margin-bottom: 7%;
-  box-shadow: 3px 3px #f3f3f3;
+  box-shadow: 3px 3px 5px 3px #f3f3f3;
   border-radius: 2%;
   /* margin-left: 20%;
   margin-right: 20%; */
@@ -140,14 +140,19 @@ body {
 
 .card-img-container {
   display: flex;
-  box-shadow: 1px 1px #f3f3f3 inset;
   align-items: center;
+}
+
+.card-img-container-1 {
+  background-color: #00d9f1;
+  border-radius: 2% 2% 0 0;
 }
 
 .card-subtitle {
   padding: 3%;
   font-size: large;
   text-align: center;
+  box-shadow: 2px 2px #f3f3f3 inset;
 }
 
 /* card 1 */
@@ -164,6 +169,7 @@ body {
 /* card 2 */
 .altn-mockup {
   width: 43%;
+  border-radius: 2% 0 0 0;
 }
 
 /* card 3 */
