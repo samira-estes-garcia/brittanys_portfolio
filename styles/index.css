@@ -141,6 +141,7 @@ body {
 .card-img-container {
   display: flex;
   box-shadow: 1px 1px #f3f3f3 inset;
+  align-self: center;
 }
 
 .card-subtitle {
@@ -153,19 +154,16 @@ body {
 .motivitask-mockup {
   width: 43%;
   border-radius: 2% 0 0 0;
-  /* height: auto; */
 }
 
 .motivitask-logo {
   width: 57%;
   border-radius: 0 2% 0 0;
-  /* height: auto; */
 }
 
 /* card 2 */
 .altn-mockup {
   width: 43%;
-  /* height: auto; */
 }
 
 /* card 3 */
