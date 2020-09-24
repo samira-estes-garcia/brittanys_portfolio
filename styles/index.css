@@ -100,10 +100,6 @@ body {
 }
 
 /* card styles */
-#work > a {
-  text-decoration: none;
-  color: #333;
-}
 
 .card {
   height: 15%;
@@ -126,6 +122,11 @@ body {
   background-color: #e2ebff;
   text-align: center;
   padding: 5%;
+}
+
+.card > a {
+  text-decoration: none;
+  color: #333;
 }
 
 .card-img-container {
