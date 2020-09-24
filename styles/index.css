@@ -22,8 +22,8 @@ body {
   margin-top: 2%;
   margin-left: 20%;
   margin-right: 20%;
-  top: 0;
-  position: sticky;
+  /* top: 0;
+  position: sticky; */
   background-color: white;
 }
 
@@ -143,6 +143,7 @@ body {
 .motivitask-mockup {
   width: 43%;
   border-radius: 2% 0 0 0;
+  height: auto;
 }
 
 .motivitask-logo {
@@ -154,6 +155,7 @@ body {
 /* card 2 */
 .altn-mockup {
   width: 43%;
+  height: auto;
 }
 
 /* card 3 */
@@ -259,4 +261,10 @@ button:hover {
   .nav-menu {
     display: none;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  /* .motivitask-logo {
+    width: 25%;
+  } */
 }
