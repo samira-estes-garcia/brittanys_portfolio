@@ -1,5 +1,5 @@
 html {
-  width: 100%;
+  max-width: 100% !important;
   height: 100%;
   padding: 0px;
   margin: 0px;
@@ -74,6 +74,11 @@ body {
   display: none;
 }
 
+.show {
+  display: block;
+  overflow: hidden;
+}
+
 /* hero styles */
 .hero-text-container {
   /* margin-left: 20%;
@@ -82,8 +87,8 @@ body {
   padding-right: 20%;
 }
 
-.overlay {
-  background-color: #e2ebff;
+.name {
+  width: 70%;
 }
 
 .hero-text-container h1 {
