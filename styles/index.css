@@ -469,12 +469,6 @@ button:hover {
   button {
     font-size: xx-small;
   }
-}
-
-@media only screen and (max-width: 350px) {
-  .hamburger {
-    margin-top: -9.5%;
-  }
   .mail {
     width: 4vw !important;
   }
@@ -484,6 +478,12 @@ button:hover {
   .linkedin,
   .dribbble {
     margin-bottom: -1%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hamburger {
+    margin-top: -9.5%;
   }
 }
 
