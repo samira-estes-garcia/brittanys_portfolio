@@ -289,6 +289,7 @@ button {
   letter-spacing: 1px;
   vertical-align: text-bottom;
   font-size: small;
+  box-shadow: 1px 1px #f3f3f3;
 }
 
 button:hover {
@@ -298,6 +299,7 @@ button:hover {
 .linkedin,
 .dribbble {
   margin-right: 2%;
+  margin-bottom: -0.2%;
 }
 
 .copyright {
@@ -322,14 +324,52 @@ button:hover {
   }
 }
 
-@media only screen and (max-width: 800px) {
-  /* .motivitask-mockup {
-    width: 25%;
+@media only screen and (max-width: 850px) {
+  .card-subtitle-1,
+  .card-subtitle-2 {
+    font-size: medium;
   }
-  .motivitask-logo {
-    width: 30%;
+}
+
+@media only screen and (max-width: 700px) {
+  .hero-text-container h1 {
+    font-size: xx-large;
   }
-  .altn-mockup {
-    width: 20%;
+  .hero-text-container p {
+    font-size: smaller;
+  }
+  .card-subtitle-1,
+  .card-subtitle-2 {
+    font-size: smaller;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .hamburger {
+    margin-top: -6%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #nav ul li a {
+    font-size: x-small;
+  }
+  /* .hero-text-container {
+    font-size: x-small;
   } */
+}
+
+@media only screen and (max-width: 500px) {
+  #nav ul li a {
+    font-size: x-small;
+  }
+  .hamburger {
+    margin-top: -6.5%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hamburger {
+    margin-top: -7%;
+  }
 }
