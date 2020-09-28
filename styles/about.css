@@ -354,6 +354,18 @@ button:hover {
   .hamburger-img {
     width: 4.5vw;
   }
+  .hero {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .hero-container {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .info-paragraphs p {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
   footer {
     margin-top: 12%;
   }
