@@ -67,7 +67,7 @@ header {
 /* mobile nav */
 .hamburger {
   display: none;
-  margin-top: -5%;
+  margin-top: -4.5%;
   float: right;
   padding-right: 20%;
 }
@@ -349,7 +349,17 @@ button:hover {
 
 @media only screen and (max-width: 650px) {
   .hamburger {
-    margin-top: -6%;
+    margin-top: -5%;
+  }
+  .card-3 h1,
+  .card-3 h2 {
+    font-size: smaller;
+  }
+  button {
+    font-size: x-small;
+  }
+  .copyright {
+    font-size: x-small;
   }
 }
 
@@ -357,9 +367,9 @@ button:hover {
   #nav ul li a {
     font-size: x-small;
   }
-  /* .hero-text-container {
+  .copyright {
     font-size: x-small;
-  } */
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -369,10 +379,48 @@ button:hover {
   .hamburger {
     margin-top: -6.5%;
   }
+  .card-subtitle-1,
+  .card-subtitle-2 {
+    font-size: small;
+  }
+  .linkedin,
+  .dribbble {
+    margin-bottom: -0.7%;
+  }
+  .line-break {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 450px) {
   .hamburger {
     margin-top: -7%;
+  }
+  .mobile-nav-items {
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #nav ul li a {
+    font-size: xx-small;
+  }
+  .hamburger {
+    margin-top: -8.5%;
+  }
+  .hamburger-img {
+    width: 4vw;
+  }
+  .hero-text-container h1 {
+    font-size: x-large;
+  }
+  .hero-text-container h2 {
+    font-size: medium;
+  }
+  .hero-text-container h2 br {
+    display: none;
+  }
+  .hero-text-container p {
+    font-size: small;
   }
 }
