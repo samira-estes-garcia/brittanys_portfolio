@@ -134,16 +134,17 @@ header {
 
 .hero-container {
   background-image: url(../assets/profile-img.jpg);
-  background-size: 50%;
+  background-size: 53%;
   background-repeat: no-repeat;
-  background-position: 98% 35%;
+  background-position: 98% 15%;
   padding: 40%;
+  margin-bottom: -10%;
 }
 
 /* info paragraphs styles */
 .info-paragraphs {
   background-color: #e2ebff;
-  padding: 5%;
+  padding: 5% 0;
 }
 
 .info-paragraphs p {
