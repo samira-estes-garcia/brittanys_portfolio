@@ -421,6 +421,7 @@ button:hover {
   }
   .hamburger {
     margin-top: -8.5%;
+    padding-right: 5%;
   }
   .hamburger-img {
     width: 4vw;
