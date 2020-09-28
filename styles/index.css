@@ -477,3 +477,13 @@ button:hover {
     margin-bottom: -1%;
   }
 }
+
+@media only screen and (max-width: 300px) {
+  .hamburger {
+    margin-top: -11.2%;
+  }
+  .linkedin,
+  .dribbble {
+    margin-bottom: -1.2%;
+  }
+}
