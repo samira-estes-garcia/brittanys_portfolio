@@ -398,8 +398,7 @@ button:hover {
     margin-right: 9%;
   }
   button {
-    font-size: small;
-    padding: 1.5% 2.5%;
+    margin-left: 9%;
   }
 }
 
