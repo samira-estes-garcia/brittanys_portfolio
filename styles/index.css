@@ -409,7 +409,7 @@ button:hover {
     padding-right: 5%;
   }
   #nav ul li a {
-    font-size: xx-small;
+    font-size: x-small;
   }
   .hamburger {
     margin-top: -8.5%;
@@ -442,6 +442,8 @@ button:hover {
   }
   .card-3 {
     width: 80%;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
   .motivitask-mockup {
     display: none;
@@ -480,7 +482,8 @@ button:hover {
     font-size: xx-small;
   }
   button {
-    font-size: x-small;
+    font-size: small;
+    padding: 2% 3%;
   }
   .mail {
     width: 7.5vw !important;
@@ -490,12 +493,13 @@ button:hover {
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -0.9%;
+    margin-bottom: -0.2%;
+    margin-right: 0;
   }
   .social-icons button,
   .tooltip,
   .social-icons a {
-    margin-right: 7%;
+    margin-right: 9%;
   }
   .copyright {
     font-size: xx-small;
