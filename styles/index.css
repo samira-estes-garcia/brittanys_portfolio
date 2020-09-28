@@ -441,6 +441,9 @@ button:hover {
   .hero-text-container p {
     font-size: 3vw;
   }
+  #work {
+    margin-top: 10%;
+  }
   .card {
     width: 80%;
   }
@@ -474,6 +477,9 @@ button:hover {
   .card-3 h2 {
     font-size: x-small;
   }
+  footer {
+    margin-top: 12%;
+  }
   footer h3 {
     font-size: x-small;
   }
@@ -484,14 +490,14 @@ button:hover {
     font-size: xx-small;
   }
   .mail {
-    width: 4vw !important;
+    width: 4.5vw !important;
   }
   .social-icons img {
-    width: 3.5vw;
+    width: 4vw;
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -1%;
+    margin-bottom: -0.7%;
   }
   .copyright {
     font-size: xx-small;
