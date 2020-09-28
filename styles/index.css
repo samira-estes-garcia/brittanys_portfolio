@@ -26,8 +26,6 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 2%;
-  /* margin-left: 20%;
-  margin-right: 20%; */
   padding-left: 20%;
   padding-right: 20%;
   background-color: white;
@@ -107,8 +105,6 @@ header {
 
 .show {
   display: block;
-  /* margin-right: 20%;
-  margin-left: 20%; */
   background-color: white;
 }
 
