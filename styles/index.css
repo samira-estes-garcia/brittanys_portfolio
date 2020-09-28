@@ -456,7 +456,7 @@ button:hover {
     display: none;
   }
   .hero-text-container p {
-    font-size: 3vw;
+    font-size: small;
   }
   #work {
     margin-top: 10%;
