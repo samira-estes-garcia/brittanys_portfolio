@@ -481,23 +481,23 @@ button:hover {
     margin-top: 12%;
   }
   footer h3 {
-    font-size: x-small;
+    font-size: small;
   }
   .tooltiptext {
     font-size: xx-small;
   }
   button {
-    font-size: xx-small;
+    font-size: x-small;
   }
   .mail {
-    width: 4.5vw !important;
+    width: 5vw !important;
   }
   .social-icons img {
-    width: 4vw;
+    width: 4.5vw;
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -0.7%;
+    margin-bottom: -0.9%;
   }
   .copyright {
     font-size: xx-small;
