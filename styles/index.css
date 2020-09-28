@@ -466,7 +466,14 @@ button:hover {
   .hamburger {
     margin-top: -9.5%;
   }
+  .mail {
+    width: 4vw !important;
+  }
   .social-icons img {
     width: 3.5vw;
+  }
+  .linkedin,
+  .dribbble {
+    margin-bottom: -1%;
   }
 }
