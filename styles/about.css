@@ -273,6 +273,9 @@ button:hover {
   .hamburger {
     margin-top: -5%;
   }
+  .hero p {
+    font-size: 2.7vw;
+  }
   .copyright {
     font-size: x-small;
   }
@@ -322,6 +325,9 @@ button:hover {
   .hamburger {
     margin-top: -6.5%;
   }
+  /* .hero-container p {
+    font-size: small;
+  } */
   .linkedin,
   .dribbble {
     margin-bottom: -0.7%;
