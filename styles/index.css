@@ -413,8 +413,8 @@ button:hover {
 
 @media only screen and (max-width: 400px) {
   #nav {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   #nav ul li a {
     font-size: xx-small;
@@ -426,8 +426,8 @@ button:hover {
     width: 4vw;
   }
   .hero-text-container {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .hero-text-container h1 {
     font-size: x-large;
@@ -445,10 +445,10 @@ button:hover {
     margin-top: 10%;
   }
   .card {
-    width: 80%;
+    width: 90%;
   }
   .card-3 {
-    width: 69%;
+    width: 80%;
   }
   .motivitask-mockup {
     display: none;
