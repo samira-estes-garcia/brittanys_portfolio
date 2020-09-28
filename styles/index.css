@@ -360,9 +360,6 @@ button:hover {
   .card-3 h2 {
     font-size: smaller;
   }
-  button {
-    font-size: x-small;
-  }
   .copyright {
     font-size: x-small;
   }
@@ -375,8 +372,34 @@ button:hover {
   #nav ul li a {
     font-size: x-small;
   }
+  footer h3 {
+    font-size: medium;
+  }
+  .social-icons {
+    margin-top: 5%;
+  }
   .copyright {
     font-size: x-small;
+  }
+  .mail {
+    width: 5.5vw !important;
+  }
+  .social-icons img {
+    width: 5vw;
+  }
+  .linkedin,
+  .dribbble {
+    margin-bottom: -0.2%;
+    margin-right: 0;
+  }
+  .social-icons button,
+  .tooltip,
+  .social-icons a {
+    margin-right: 9%;
+  }
+  button {
+    font-size: small;
+    padding: 1.5% 2.5%;
   }
 }
 
@@ -476,23 +499,16 @@ button:hover {
   }
   .card-3 h1,
   .card-3 h2 {
-    font-size: x-small;
+    font-size: small;
   }
   footer {
     margin-top: 12%;
   }
-  footer h3 {
-    font-size: smaller;
-  }
   .tooltiptext {
     font-size: xx-small;
   }
-  button {
-    font-size: small;
-    padding: 2% 3%;
-  }
   .mail {
-    width: 7.5vw !important;
+    width: 8vw !important;
   }
   .social-icons img {
     width: 7vw;
@@ -508,7 +524,7 @@ button:hover {
     margin-right: 9%;
   }
   .copyright {
-    font-size: xx-small;
+    font-size: x-small;
   }
 }
 
