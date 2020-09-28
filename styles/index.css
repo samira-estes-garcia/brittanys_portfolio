@@ -461,3 +461,12 @@ button:hover {
     font-size: xx-small;
   }
 }
+
+@media only screen and (max-width: 350px) {
+  .hamburger {
+    margin-top: -9.5%;
+  }
+  .social-icons img {
+    width: 3.5vw;
+  }
+}
