@@ -332,6 +332,9 @@ button:hover {
 }
 
 @media only screen and (max-width: 700px) {
+  .mobile-nav-items li > a {
+    font-size: smaller;
+  }
   .hero-text-container h1 {
     font-size: xx-large;
   }
