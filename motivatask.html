@@ -3,9 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/motivatask.css" />
+    <link rel="icon" type="image/jpg" href="assets/favicon.jpg" />
     <title>Motivatask Case Study</title>
   </head>
   <body>
+    <header>
+      <nav id="nav">
+        <ul class="logo-text">
+          <li><a href="index.html">BRITTANY ESTES-GARCIA</a></li>
+        </ul>
+        <ul class="nav-menu">
+          <a href="index.html" class="active"><li>WORK</li></a>
+          <a href="about.html"><li>ABOUT</li></a>
+          <a href="#footer"><li>CONTACT</li></a>
+        </ul>
+      </nav>
+      <nav class="drop-down">
+        <div class="hamburger">
+          <img
+            src="assets/hamburger.png"
+            alt="Hamburger Menu Button"
+            class="hamburger-img"
+          />
+        </div>
+        <div class="nav-menu-mobile">
+          <ul class="mobile-nav-items">
+            <a href="index.html" class="active"><li>WORK</li></a>
+            <a href="about.html"><li>ABOUT</li></a>
+            <a href="#footer"><li>CONTACT</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <iframe
       style="border: 1px solid rgba(0, 0, 0, 0.1)"
       width="800"
@@ -13,5 +51,40 @@
       src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNTcNInYzoNHepPvsHD0y8D%2FMotivatask%3Fnode-id%3D0%253A2947%26viewport%3D0%252C0%252C1%26scaling%3Dmin-zoom&chrome=DOCUMENTATION"
       allowfullscreen
     ></iframe>
+    <footer id="footer">
+      <h3>Let's Talk!</h3>
+      <div class="social-icons">
+        <button
+          type="submit"
+          onclick="window.open('assets/Estes-Garcia Resume.pdf')"
+          class="resume"
+        >
+          Resume
+        </button>
+        <div class="tooltip">
+          <img src="assets/mail.svg" class="mail" />
+          <span class="tooltiptext">brittany.estes.garcia@gmail.com</span>
+        </div>
+        <a
+          href="https://www.linkedin.com/in/brittany-estes-garcia/"
+          target="_blank"
+        >
+          <img src="assets/linkedin.svg" alt="LinkedIn Logo" class="linkedin" />
+        </a>
+        <a href="#">
+          <img src="assets/dribbble.svg" alt="Dribbble Logo" class="dribbble" />
+        </a>
+      </div>
+      <div class="copyright">
+        Website Design and Content
+        <span class="line-break">© 2020 Brittany Estes-Garcia</span>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
   </body>
 </html>
