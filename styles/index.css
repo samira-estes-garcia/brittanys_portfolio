@@ -529,8 +529,8 @@ button:hover {
     font-size: x-small;
   }
   button {
-    font-size: x-small;
-    padding: 1.5% 2%;
+    font-size: small;
+    padding: 2% 3%;
   }
 }
 
