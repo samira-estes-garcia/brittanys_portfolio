@@ -31,3 +31,15 @@ $(".info-paragraphs").click(function () {
 $("footer").click(function () {
   $(".nav-menu-mobile").hide();
 });
+
+//card zoom on hover
+$(".card").mouseenter(function () {
+  $(this).addClass("animate__animated animate__pulse");
+});
+
+$(".card").on(
+  "webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd",
+  function (event) {
+    $(this).removeClass("animate__animated animate__pulse");
+  }
+);
