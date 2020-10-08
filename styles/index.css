@@ -126,7 +126,7 @@ header {
 }
 
 .hero-text-container h2 {
-  font-weight: 100;
+  font-weight: 500;
   font-size: 3.5vw;
   margin-top: 7%;
 }
@@ -135,6 +135,7 @@ header {
   margin-top: 7%;
   margin-bottom: 10%;
   font-size: larger;
+  color: black;
 }
 
 /* card styles */
@@ -182,6 +183,12 @@ header {
   font-size: large;
   text-align: center;
   box-shadow: 2px 2px #f3f3f3 inset;
+  color: black;
+}
+
+.semi-bold {
+  font-weight: 600;
+  color: #333;
 }
 
 /* card 1 */
@@ -223,7 +230,7 @@ footer h3 {
   margin-top: 7%;
   margin-bottom: 3%;
   font-size: 2.1vw;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 .social-icons {
@@ -300,6 +307,7 @@ button:hover {
   text-align: center;
   margin: 5%;
   font-size: small;
+  font-weight: 500;
 }
 
 /* media queries */
