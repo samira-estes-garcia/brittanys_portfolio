@@ -112,9 +112,7 @@ header {
 
 /* hero styles */
 .hero {
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 5%;
+  padding: 5% 20%;
 }
 
 .heading {
@@ -182,12 +180,21 @@ header {
   margin-top: 35%;
 }
 
-/* section 2 styles */
-.section-2 {
+/* section styles */
+.section-3,
+.section-5,
+.section-7,
+.section-9 {
+  padding: 5% 20%;
+}
+.section-2,
+.section-6,
+.section-8 {
   padding: 5% 20%;
   background-color: #f5f6f7;
 }
 
+/* section 2 styles */
 .section-2 h1 {
   font-size: 1.5em;
   font-weight: 600;
@@ -204,7 +211,8 @@ header {
 }
 
 .blue-item {
-  width: 50%;
+  /* width: 50%; */
+  width: 35%;
   background-color: #00d9f1;
   margin-right: 5%;
   text-align: center;
@@ -238,8 +246,55 @@ header {
 }
 
 /* section 3 styles */
-.section-3 {
-  padding: 5% 20%;
+.sketch {
+  width: 85%;
+  margin: 5% 0%;
+}
+
+/* section 4 styles */
+.section-4 {
+  background-color: #f5f6f7;
+  padding: 5% 0%;
+}
+
+.padding {
+  padding: 0% 20%;
+}
+
+.userflow-container {
+  display: flex;
+  margin: 5%;
+  justify-content: center;
+}
+
+.userflow {
+  width: 43%;
+  box-shadow: 0px 0px 5px 7px #f3f3f3;
+}
+
+.userflow-1,
+.userflow-3 {
+  margin-right: 5%;
+}
+
+/* section 5 styles */
+.wireframe {
+  width: 100%;
+}
+
+/* section 6 styles */
+.style-img {
+  width: 100%;
+}
+
+/* section 7 styles */
+.phone-screens-container img {
+  width: 100%;
+}
+
+/* section 8 styles */
+.finalscreen-container img {
+  width: 100%;
 }
 
 /* footer */
