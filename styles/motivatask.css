@@ -248,7 +248,7 @@ header {
 /* section 3 styles */
 .sketch {
   width: 85%;
-  margin: 5% 0%;
+  /* margin: 5% 0%; */
 }
 
 /* section 4 styles */
@@ -279,22 +279,44 @@ header {
 
 /* section 5 styles */
 .wireframe {
-  width: 100%;
+  width: 25%;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 
 /* section 6 styles */
+.style-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -3%;
+}
+
 .style-img {
+  width: 45%;
+  margin-right: 5%;
+  margin-top: 7%;
+}
+
+.logo-container img {
   width: 100%;
 }
 
 /* section 7 styles */
+.phone-screens-container {
+  display: flex;
+}
 .phone-screens-container img {
-  width: 100%;
+  width: 27%;
+  margin: 5% 5% 5% 0;
 }
 
 /* section 8 styles */
+.finalscreen-container {
+  display: flex;
+}
 .finalscreen-container img {
-  width: 100%;
+  width: 27%;
+  margin: 5% 5% 5% 0;
 }
 
 /* footer */
