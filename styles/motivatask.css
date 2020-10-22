@@ -12,7 +12,7 @@ body {
   background-image: none;
   background-position: 0px 0px;
   font-family: "Montserrat", sans-serif;
-  color: #333;
+  color: black;
 }
 
 /* nav styles */
@@ -20,6 +20,7 @@ header {
   top: 0;
   position: sticky;
   letter-spacing: 1.5px;
+  color: #333 !important;
 }
 
 #nav {
@@ -71,6 +72,7 @@ header {
   margin-top: -4.5%;
   float: right;
   padding-right: 20%;
+  color: #333 !important;
 }
 
 .hamburger-img {
@@ -114,6 +116,7 @@ header {
 /* semi-bold and cross out*/
 .semi-bold {
   font-weight: 600;
+  color: #333;
 }
 
 .cross-out {
@@ -128,6 +131,7 @@ header {
 .heading {
   display: flex;
   margin-bottom: 5%;
+  color: #333 !important;
 }
 
 .heading-h1 {
@@ -161,13 +165,18 @@ header {
 }
 
 .challenge {
-  /* margin-top: 10%; */
+  margin-top: 5%;
 }
 
 .challenge h2,
 .approach h2 {
   font-size: 1.2em;
   font-weight: 600;
+  color: #333 !important;
+}
+
+.challenge h2 {
+  margin-bottom: 5%;
 }
 
 .challenge p,
@@ -179,6 +188,7 @@ header {
 .approach {
   margin-top: 5%;
   display: flex;
+  padding-bottom: 2%;
 }
 
 .approach-list {
@@ -189,9 +199,17 @@ header {
   margin-right: 25%;
 }
 
+.approach-container h2 {
+  margin-bottom: 8%;
+}
+
 .role-container {
   white-space: nowrap;
   margin-left: -5%;
+}
+
+.role-container h2 {
+  margin-bottom: 15%;
 }
 
 .tools-h2 {
@@ -216,11 +234,14 @@ header {
 .section-2 h1 {
   font-size: 1.7em;
   font-weight: 600;
-  margin-bottom: 7%;
+  margin-bottom: 6%;
+  margin-top: 2%;
+  color: #333;
 }
 
 .section-2 p {
-  margin-top: 5%;
+  margin-top: 3%;
+  line-height: 1.3em;
 }
 
 .blue-box {
@@ -235,7 +256,8 @@ header {
   text-align: center;
   padding: 3%;
   border-radius: 0.2em;
-  font-weight: 600;
+  font-weight: 500;
+  color: #333;
 }
 
 .blue-item-2,
@@ -252,28 +274,36 @@ header {
 }
 
 .persona-2 {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .affinity-map {
   width: 100%;
   margin-top: 7%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .goals {
-  font-size: medium;
-  margin-right: 5%;
+  color: #333;
+  padding-bottom: 2%;
+}
+
+.goals h3 {
+  font-weight: 500;
 }
 
 /* section 3 styles */
 .section-3 h1 {
   font-size: 1.7em;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
+  margin-top: 2%;
+  color: #333;
+  font-weight: 600;
 }
 
 .section-3 p {
-  margin-bottom: 3%;
+  margin-top: 3%;
+  line-height: 1.3em;
 }
 
 .sketch {
@@ -281,8 +311,12 @@ header {
   margin: 5% 0;
 }
 
+.sketch-2 {
+  margin-top: 4%;
+}
+
 .sketch-3 {
-  margin: -3% 0 !important;
+  margin: -5% 0 !important;
 }
 
 /* section 4 styles */
@@ -293,6 +327,10 @@ header {
 
 .section-4 h1 {
   font-size: 1.7em;
+  color: #333;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  font-weight: 600;
 }
 
 .padding {
@@ -301,12 +339,17 @@ header {
 
 .section-4 p {
   margin-bottom: 3%;
+  line-height: 1.3em;
 }
 
 .userflow-container {
   display: flex;
   margin: 5%;
   justify-content: center;
+}
+
+.userflow-container-2 {
+  margin-bottom: 2%;
 }
 
 .userflow {
@@ -322,15 +365,24 @@ header {
 /* section 5 styles */
 .section-5 h1 {
   font-size: 1.7em;
+  color: #333;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  font-weight: 600;
 }
 
 .section-5 p {
   margin-bottom: 3%;
+  line-height: 1.3em;
 }
 
 .wireframe-container-1 {
   display: flex;
   justify-content: space-between;
+}
+
+.wireframe-container-2 {
+  padding-bottom: 2%;
 }
 
 .wireframe {
@@ -345,10 +397,15 @@ header {
 /* section 6 styles */
 .section-6 h1 {
   font-size: 1.7em;
+  color: #333;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  font-weight: 600;
 }
 
 .section-6 p {
   margin-bottom: 3%;
+  line-height: 1.3em;
 }
 
 .style-container {
@@ -364,25 +421,32 @@ header {
   margin-top: 7%;
 }
 
-.logo-container img {
-  width: 85%;
+.logo-container {
   margin-top: -3%;
+}
+
+.logo-container img {
+  width: 100%;
 }
 
 /* section 7 styles */
 .section-7 h1 {
   font-size: 1.7em;
-  margin-bottom: 7%;
+  color: #333;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  font-weight: 600;
 }
 
 .section-7 p {
   margin-bottom: 3%;
+  line-height: 1.3em;
 }
 
 .phone-screens-container {
   display: flex;
   justify-content: space-between;
-  margin: 5% 0;
+  margin: 7% 0;
 }
 .phone-screens-container img {
   width: 27%;
@@ -392,13 +456,16 @@ header {
 /* section 8 styles */
 .section-8 h1 {
   font-size: 1.7em;
-  margin-bottom: 7%;
+  color: #333;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  font-weight: 600;
 }
 
 .finalscreen-container {
   display: flex;
   justify-content: space-between;
-  margin: 5% 0;
+  margin: 7% 0;
 }
 .finalscreen-container img {
   width: 27%;
@@ -406,7 +473,7 @@ header {
 }
 
 #iframe {
-  padding-top: 5%;
+  padding: 5% 0;
 }
 
 #iframe iframe {
@@ -417,10 +484,25 @@ header {
 
 .section-8 p {
   margin-bottom: 3%;
+  line-height: 1.3em;
 }
 
+/* section 9 styles */
 .section-9 {
-  padding-bottom: 10%;
+  padding-bottom: 5%;
+}
+
+.section-9 h1 {
+  font-size: 1.7em;
+  color: #333;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  font-weight: 600;
+}
+
+.section-9 p {
+  margin-bottom: 3%;
+  line-height: 1.3em;
 }
 
 /* footer */
