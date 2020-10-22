@@ -132,11 +132,11 @@ header {
 .heading h1 {
   font-size: 2.7em;
   font-weight: 600;
-  margin-right: 5%;
+  margin-right: 3%;
 }
 
 .heading a {
-  margin-top: 6%;
+  margin-top: 5%;
 }
 
 .view button {
