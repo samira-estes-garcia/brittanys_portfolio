@@ -37,8 +37,7 @@ header {
 #nav ul {
   list-style: none;
   padding: 0;
-  /* margin-right: 10%; */
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 .logo-text li a,
@@ -126,7 +125,7 @@ header {
 
 .heading {
   display: flex;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 .heading h1 {
@@ -155,10 +154,11 @@ header {
 .hero img {
   width: 100%;
   border-radius: 0.5em;
+  margin-bottom: 2%;
 }
 
 .challenge {
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 
 .challenge h2,
