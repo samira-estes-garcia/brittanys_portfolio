@@ -13,7 +13,6 @@ body {
   background-position: 0px 0px;
   font-family: "Montserrat", sans-serif;
   color: #333;
-  letter-spacing: 1.5px;
 }
 
 /* nav styles */
@@ -110,6 +109,15 @@ header {
   background-color: white;
 }
 
+/* semi-bold and cross out*/
+.semi-bold {
+  font-weight: 600;
+}
+
+.cross-out {
+  text-decoration: line-through;
+}
+
 /* hero styles */
 .hero {
   padding: 5% 20%;
@@ -117,12 +125,11 @@ header {
 
 .heading {
   display: flex;
-  margin-top: 4%;
   margin-bottom: 3%;
 }
 
 .heading h1 {
-  font-size: 2em;
+  font-size: 2.7em;
   font-weight: 600;
   margin-right: 3%;
 }
@@ -130,21 +137,23 @@ header {
 .view button {
   background-color: #00d9f1;
   border: none;
-  padding: 9%;
+  padding: 8%;
   border-radius: 0.2em;
   font-size: smaller;
-  box-shadow: 1px 1px #f3f3f3;
-  margin-top: 30%;
+  box-shadow: 2px 2px #f3f3f3;
+  margin-top: 35%;
   white-space: nowrap;
+  font-family: "Montserrat", "sans-serif";
+  letter-spacing: 0.5px;
 }
 
 .hero img {
   width: 100%;
-  border-radius: 0.2em;
+  border-radius: 0.5em;
 }
 
 .challenge {
-  margin-top: 7%;
+  margin-top: 10%;
 }
 
 .challenge h2,
@@ -156,19 +165,20 @@ header {
 .challenge p,
 .approach p {
   font-size: medium;
+  margin-top: 3%;
 }
 
 .approach {
-  margin-top: 7%;
+  margin-top: 5%;
   display: flex;
 }
 
-.approach h2 {
-  margin-top: -1%;
+.approach-list {
+  line-height: 1.3em;
 }
 
 .approach-container {
-  margin-right: 15%;
+  margin-right: 25%;
 }
 
 .role-container {
@@ -196,7 +206,7 @@ header {
 
 /* section 2 styles */
 .section-2 h1 {
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 600;
   margin-bottom: 7%;
 }
@@ -211,7 +221,6 @@ header {
 }
 
 .blue-item {
-  /* width: 50%; */
   width: 35%;
   background-color: #00d9f1;
   margin-right: 5%;
@@ -221,13 +230,17 @@ header {
   font-weight: 600;
 }
 
+.blue-item-2,
+.blue-item-4 {
+  padding-top: 4%;
+}
+
 .persona {
   width: 100%;
 }
 
 .persona-1 {
-  margin-top: 7%;
-  margin-bottom: 5%;
+  margin: 7% 0;
 }
 
 .persona-2 {
@@ -246,9 +259,22 @@ header {
 }
 
 /* section 3 styles */
+.section-3 h1 {
+  font-size: 1.7em;
+  margin-bottom: 5%;
+}
+
+.section-3 p {
+  margin-bottom: 3%;
+}
+
 .sketch {
-  width: 85%;
-  /* margin: 5% 0%; */
+  width: 100%;
+  margin: 5% 0;
+}
+
+.sketch-3 {
+  margin: -3% 0 !important;
 }
 
 /* section 4 styles */
@@ -257,8 +283,16 @@ header {
   padding: 5% 0%;
 }
 
+.section-4 h1 {
+  font-size: 1.7em;
+}
+
 .padding {
   padding: 0% 20%;
+}
+
+.section-4 p {
+  margin-bottom: 3%;
 }
 
 .userflow-container {
@@ -278,17 +312,42 @@ header {
 }
 
 /* section 5 styles */
+.section-5 h1 {
+  font-size: 1.7em;
+}
+
+.section-5 p {
+  margin-bottom: 3%;
+}
+
+.wireframe-container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .wireframe {
   width: 25%;
-  margin-right: 5%;
   margin-top: 5%;
 }
 
+.wireframe-margin {
+  margin-right: 12%;
+}
+
 /* section 6 styles */
+.section-6 h1 {
+  font-size: 1.7em;
+}
+
+.section-6 p {
+  margin-bottom: 3%;
+}
+
 .style-container {
   display: flex;
   flex-wrap: wrap;
   margin-top: -3%;
+  margin-bottom: 5%;
 }
 
 .style-img {
@@ -298,25 +357,58 @@ header {
 }
 
 .logo-container img {
-  width: 100%;
+  width: 85%;
+  margin-top: -3%;
 }
 
 /* section 7 styles */
+.section-7 h1 {
+  font-size: 1.7em;
+  margin-bottom: 7%;
+}
+
+.section-7 p {
+  margin-bottom: 3%;
+}
+
 .phone-screens-container {
   display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
 }
 .phone-screens-container img {
   width: 27%;
-  margin: 5% 5% 5% 0;
+  margin-bottom: 3%;
 }
 
 /* section 8 styles */
+.section-8 h1 {
+  font-size: 1.7em;
+  margin-bottom: 7%;
+}
+
 .finalscreen-container {
   display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
 }
 .finalscreen-container img {
   width: 27%;
-  margin: 5% 5% 5% 0;
+  margin-bottom: 3%;
+}
+
+.iframe iframe {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 850px;
+}
+
+.section-8 p {
+  margin-bottom: 3%;
+}
+
+.section-9 {
+  padding-bottom: 10%;
 }
 
 /* footer */
