@@ -166,7 +166,7 @@ header {
 
 .challenge h2,
 .approach h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 600;
 }
 
@@ -434,6 +434,7 @@ footer h3 {
 
 .social-icons {
   text-align: center;
+  margin-bottom: -2%;
 }
 
 .social-icons img {
