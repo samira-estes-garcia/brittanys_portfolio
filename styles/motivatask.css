@@ -334,6 +334,7 @@ header {
   display: flex;
   margin: 5%;
   justify-content: center;
+  align-items: center;
 }
 
 .userflow-container-2 {
@@ -354,6 +355,7 @@ header {
 .wireframe-container-1 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .wireframe-container-2 {
@@ -375,6 +377,7 @@ header {
   flex-wrap: wrap;
   margin-top: -3%;
   margin-bottom: 5%;
+  align-items: center;
 }
 
 .style-img {
@@ -396,6 +399,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 7% 0;
+  align-items: center;
 }
 .phone-screens-container img {
   width: 27%;
@@ -407,6 +411,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 7% 0;
+  align-items: center;
 }
 .finalscreen-container img {
   width: 27%;
