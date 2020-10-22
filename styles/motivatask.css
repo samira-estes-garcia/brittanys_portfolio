@@ -37,7 +37,8 @@ header {
 #nav ul {
   list-style: none;
   padding: 0;
-  margin-right: 10%;
+  /* margin-right: 10%; */
+  margin-right: 4%;
 }
 
 .logo-text li a,
