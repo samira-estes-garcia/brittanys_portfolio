@@ -135,6 +135,10 @@ header {
   margin-right: 3%;
 }
 
+.heading a {
+  margin-top: 6%;
+}
+
 .view button {
   background-color: #00d9f1;
   border: none;
@@ -142,10 +146,10 @@ header {
   border-radius: 0.2em;
   font-size: smaller;
   box-shadow: 2px 2px #f3f3f3;
-  margin-top: 35%;
   white-space: nowrap;
   font-family: "Montserrat", "sans-serif";
   letter-spacing: 0.5px;
+  color: #333;
 }
 
 .hero img {
