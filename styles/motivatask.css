@@ -649,30 +649,6 @@ button:hover {
     padding-right: 5%;
   }
   /* hero, change font sizes and button size and margin */
-  .heading-h1 {
-    font-size: x-large;
-  }
-  .heading a,
-  .tools-h2 {
-    margin-top: 0;
-  }
-  .view button {
-    padding: 5%;
-  }
-  .approach {
-    display: block;
-  }
-  .approach-container {
-    margin-right: 0;
-  }
-  .approach-container h2,
-  .role-container h2 {
-    margin-bottom: 0;
-  }
-  .role-container {
-    white-space: initial;
-    margin-left: 0;
-  }
   /* section 4, remove padding, stack images */
   .padding {
     padding: 0;
