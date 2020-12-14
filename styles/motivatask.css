@@ -11,8 +11,16 @@ body {
   background-color: #fff;
   background-image: none;
   background-position: 0px 0px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Avenir";
   color: black;
+}
+
+header,
+nav,
+h1,
+h2,
+.heading-h1 {
+  font-family: "Montserrat", sans-serif !important;
 }
 
 /* nav styles */
