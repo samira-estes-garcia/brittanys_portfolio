@@ -658,14 +658,6 @@ button:hover {
   .view button {
     padding: 5%;
   }
-  .challenge h2 {
-    font-size: large;
-  }
-  .challenge p,
-  .approach p,
-  .approach-list {
-    font-size: small;
-  }
   .approach {
     display: block;
   }
