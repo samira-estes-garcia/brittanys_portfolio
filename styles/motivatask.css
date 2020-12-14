@@ -648,7 +648,44 @@ button:hover {
     padding-left: 5%;
     padding-right: 5%;
   }
-  /* remove section 4 padding */
+  /* hero, change font sizes and button size and margin */
+  .heading-h1 {
+    font-size: x-large;
+  }
+  .heading a {
+    margin-top: 0;
+  }
+  .view button {
+    padding: 5%;
+  }
+  .challenge h2 {
+    font-size: large;
+  }
+  .challenge p,
+  .approach p,
+  .approach-list {
+    font-size: small;
+  }
+  .approach {
+    display: block;
+  }
+  .approach-container {
+    margin-right: 0;
+  }
+  .approach-container h2 {
+    margin-bottom: 0;
+  }
+  .role-container {
+    white-space: initial;
+    margin-left: 0;
+  }
+  .role-container h2 {
+    margin-bottom: 0;
+  }
+  .tools-h2 {
+    margin-top: 0;
+  }
+  /* section 4, remove padding, stack images */
   .padding {
     padding: 0;
   }
