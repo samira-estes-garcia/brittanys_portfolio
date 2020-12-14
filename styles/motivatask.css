@@ -652,7 +652,8 @@ button:hover {
   .heading-h1 {
     font-size: x-large;
   }
-  .heading a {
+  .heading a,
+  .tools-h2 {
     margin-top: 0;
   }
   .view button {
@@ -664,18 +665,13 @@ button:hover {
   .approach-container {
     margin-right: 0;
   }
-  .approach-container h2 {
+  .approach-container h2,
+  .role-container h2 {
     margin-bottom: 0;
   }
   .role-container {
     white-space: initial;
     margin-left: 0;
-  }
-  .role-container h2 {
-    margin-bottom: 0;
-  }
-  .tools-h2 {
-    margin-top: 0;
   }
   /* section 4, remove padding, stack images */
   .padding {
