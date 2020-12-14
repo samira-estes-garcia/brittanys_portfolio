@@ -335,10 +335,7 @@ header {
   margin: 5%;
   justify-content: center;
   align-items: center;
-}
-
-.userflow-container-2 {
-  margin-bottom: 2%;
+  flex-wrap: wrap;
 }
 
 .userflow {
@@ -349,6 +346,11 @@ header {
 .userflow-1,
 .userflow-3 {
   margin-right: 5%;
+}
+
+.userflow-1,
+.userflow-2 {
+  margin-bottom: 5%;
 }
 
 /* section 5 styles */
@@ -641,6 +643,14 @@ button:hover {
   }
   .hamburger-img {
     width: 4.5vw;
+  }
+  .section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* remove section 4 padding */
+  .padding {
+    padding: 0;
   }
   footer {
     margin-top: 12%;
