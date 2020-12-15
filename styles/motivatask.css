@@ -675,7 +675,6 @@ button:hover {
   .goals {
     margin-top: 10%;
     line-height: 1.3em;
-    font-size: smaller;
   }
 }
 
@@ -803,7 +802,7 @@ button:hover {
   .section-7 h1,
   .section-8 h1,
   .section-9 h1 {
-    font-size: 1.4em;
+    font-size: 1.7em;
   }
   /* section 4, remove padding, stack images */
   .padding {
