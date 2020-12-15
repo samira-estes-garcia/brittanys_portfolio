@@ -180,7 +180,7 @@ header {
 
 .challenge h2,
 .approach h2 {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 600;
   color: #333 !important;
 }
@@ -262,7 +262,8 @@ header {
 .section-6 p,
 .section-7 p,
 .section-8 p,
-.section-9 p {
+.section-9 p,
+.goals {
   margin-top: 3%;
   line-height: 1.3em;
   font-size: medium;
@@ -584,18 +585,37 @@ button:hover {
     font-size: smaller;
   }
   /* hero stack all info */
+  .hero {
+    padding-bottom: 10%;
+  }
   .heading-h1 {
     font-size: 2em;
+  }
+  .hero p {
+    font-size: smaller;
+  }
+  .challenge p {
+    margin-top: 7%;
+  }
+  .hero h2 {
+    font-size: 1.2em;
   }
   .approach {
     display: block;
   }
+  .approach p {
+    margin-top: 5%;
+  }
   .approach-container {
     margin-right: 0;
   }
+  .approach-list {
+    font-size: smaller;
+  }
   .approach-container h2,
   .role-container h2 {
-    margin-bottom: 0;
+    margin-bottom: 5%;
+    margin-top: 10%;
   }
   .role-container {
     white-space: initial;
@@ -612,6 +632,46 @@ button:hover {
   }
   .blue-item {
     flex: 0 0 auto;
+  }
+  /* section styles */
+  .section-3,
+  .section-5,
+  .section-7,
+  .section-9 {
+    padding: 10% 20%;
+  }
+  .section-2,
+  .section-6,
+  .section-8 {
+    padding: 10% 20%;
+  }
+
+  .section-2 h1,
+  .section-3 h1,
+  .section-4 h1,
+  .section-5 h1,
+  .section-6 h1,
+  .section-7 h1,
+  .section-8 h1,
+  .section-9 h1 {
+    font-weight: 600;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    color: #333;
+  }
+
+  .section-2 p,
+  .section-3 p,
+  .section-4 p,
+  .section-5 p,
+  .section-6 p,
+  .section-7 p,
+  .section-8 p,
+  .section-9 p,
+  .goals {
+    margin-top: 10%;
+    line-height: 1.3em;
+    font-size: smaller;
   }
 }
 
@@ -671,6 +731,10 @@ button:hover {
   .blue-item {
     width: 27%;
   }
+  .blue-item-2,
+  .blue-item-4 {
+    padding-top: 6%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -714,8 +778,7 @@ button:hover {
     width: 4.5vw;
   }
   .section {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 10% 5%;
   }
   /* hero, change font sizes and button size and margin */
   .heading-h1 {
