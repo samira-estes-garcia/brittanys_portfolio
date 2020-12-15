@@ -226,7 +226,7 @@ header {
 .museum-guide-logo {
   font-family: "Minion3Subhead-Medium";
   font-weight: 100;
-  font-size: 2.5em;
+  font-size: 3vw;
   margin-left: -5%;
 }
 
@@ -350,6 +350,7 @@ button:hover {
 
 @media only screen and (max-width: 850px) {
   .card-subtitle-1,
+  .card-subtitle-2,
   .card-subtitle-4 {
     font-size: medium;
   }
@@ -393,6 +394,7 @@ button:hover {
     font-size: smaller;
   }
   .card-subtitle-1,
+  .card-subtitle-2,
   .card-subtitle-4 {
     font-size: smaller;
   }
@@ -520,6 +522,15 @@ button:hover {
   }
   .motivitask-logo {
     margin: 0 auto;
+  }
+  .card-img-container-2 {
+    background-image: none;
+    padding: 0;
+  }
+  .card-img-container-2 h1 {
+    font-size: 7vw;
+    margin: 0 auto;
+    padding: 15%;
   }
   .card-4 {
     background-image: none;
