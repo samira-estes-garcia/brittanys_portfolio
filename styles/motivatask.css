@@ -724,7 +724,44 @@ button:hover {
   .userflow-4 {
     margin-top: 5%;
   }
-  /**/
+  /*section 5, stack images*/
+  .wireframe-container-1,
+  .wireframe-container-2 {
+    display: block;
+    text-align: center;
+  }
+  .wireframe {
+    width: 80%;
+  }
+  .wireframe-margin {
+    margin-right: 0;
+  }
+  /*section 6 stack images*/
+  .style-container {
+    display: block;
+    text-align: center;
+  }
+  .style-img {
+    width: 80%;
+  }
+  /*section 7, stack images*/
+  .phone-screens-container {
+    display: block;
+    text-align: center;
+    margin: 3% 0;
+  }
+  .phone-screens-container img {
+    width: 80%;
+  }
+  /* section 8, stack images*/
+  .finalscreen-container {
+    display: block;
+    text-align: center;
+    margin: 3% 0;
+  }
+  .finalscreen-container img {
+    width: 80%;
+  }
   footer {
     margin-top: 12%;
   }
