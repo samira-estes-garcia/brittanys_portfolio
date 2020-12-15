@@ -379,7 +379,7 @@ button:hover {
   }
   .card-3 h1,
   .card-3 h2 {
-    font-size: smaller;
+    font-size: 4vw;
   }
   .copyright {
     font-size: x-small;
@@ -430,10 +430,6 @@ button:hover {
   .hamburger {
     margin-top: -6.5%;
   }
-  .card-subtitle-1,
-  .card-subtitle-2 {
-    font-size: small;
-  }
   .linkedin,
   .dribbble {
     margin-bottom: -0.7%;
@@ -471,17 +467,17 @@ button:hover {
     padding-left: 5%;
     padding-right: 5%;
   }
-  .hero-text-container h1 {
+  /* .hero-text-container h1 {
     font-size: x-large;
-  }
+  } */
   .hero-text-container h2 {
-    font-size: medium;
+    font-size: larger;
   }
   .hero-text-container h2 br {
     display: none;
   }
   .hero-text-container p {
-    font-size: small;
+    font-size: medium;
   }
   #work {
     margin-top: 10%;
@@ -513,14 +509,14 @@ button:hover {
     margin: 0 auto;
     padding: 10%;
   }
-  .card-subtitle-1,
+  /* .card-subtitle-1,
   .card-subtitle-2 {
     font-size: x-small;
   }
   .card-3 h1,
   .card-3 h2 {
     font-size: small;
-  }
+  } */
   footer {
     margin-top: 12%;
   }
