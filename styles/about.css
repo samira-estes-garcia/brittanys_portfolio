@@ -348,7 +348,7 @@ button:hover {
     margin-top: -6.5%;
   }
   .hero h1 {
-    font-size: large;
+    font-size: x-large;
   }
   .hero p,
   .info-paragraphs p {
@@ -399,7 +399,7 @@ button:hover {
     padding-left: 5%;
   }
   .hero h2 {
-    font-size: medium;
+    font-size: larger;
   }
   .info-paragraphs p {
     padding-right: 5%;
