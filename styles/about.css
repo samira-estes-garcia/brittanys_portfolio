@@ -350,11 +350,9 @@ button:hover {
   .hero h1 {
     font-size: large;
   }
-  .hero p {
-    font-size: smaller;
-  }
+  .hero p,
   .info-paragraphs p {
-    font-size: smaller;
+    font-size: medium;
   }
   .linkedin,
   .dribbble {
