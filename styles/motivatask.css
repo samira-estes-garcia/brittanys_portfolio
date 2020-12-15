@@ -565,6 +565,10 @@ button:hover {
   .nav-menu {
     margin-top: 4%;
   }
+  .linkedin,
+  .dribbble {
+    margin-bottom: -0.5;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -790,20 +794,6 @@ button:hover {
   .view button {
     padding: 5% 9%;
   }
-  /* .approach {
-    display: block;
-  }
-  .approach-container {
-    margin-right: 0;
-  }
-  .approach-container h2,
-  .role-container h2 {
-    margin-bottom: 0;
-  }
-  .role-container {
-    white-space: initial;
-    margin-left: 0;
-  } */
   /* resize section headings */
   .section-2 h1,
   .section-3 h1,
@@ -871,14 +861,14 @@ button:hover {
     font-size: xx-small;
   }
   .mail {
-    width: 8vw !important;
+    width: 8.5vw !important;
   }
   .social-icons img {
     width: 7vw;
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -0.2%;
+    margin-bottom: -1%;
     margin-right: 0;
   }
   .social-icons button,

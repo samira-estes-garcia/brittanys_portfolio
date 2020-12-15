@@ -268,6 +268,10 @@ button:hover {
   #nav a {
     font-size: 0.7em !important;
   }
+  .linkedin,
+  .dribbble {
+    margin-bottom: -0.5;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -327,7 +331,7 @@ button:hover {
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -0.2%;
+    margin-bottom: -1%;
     margin-right: 0;
   }
   .social-icons button,
@@ -412,14 +416,14 @@ button:hover {
     font-size: xx-small;
   }
   .mail {
-    width: 8vw !important;
+    width: 8.5vw !important;
   }
   .social-icons img {
     width: 7vw;
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -0.2%;
+    margin-bottom: -1%;
     margin-right: 0;
   }
   .social-icons button,
