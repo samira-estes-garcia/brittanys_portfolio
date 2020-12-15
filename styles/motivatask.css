@@ -724,44 +724,38 @@ button:hover {
   .userflow-4 {
     margin-top: 5%;
   }
-  /*section 5, stack images*/
+
+  /* section 5,6,7,8 stack images*/
   .wireframe-container-1,
-  .wireframe-container-2 {
-    display: block;
-    text-align: center;
-  }
-  .wireframe {
-    width: 80%;
-  }
-  .wireframe-margin {
-    margin-right: 0;
-  }
-  /*section 6 stack images*/
-  .style-container {
-    display: block;
-    text-align: center;
-  }
-  .style-img {
-    width: 80%;
-  }
-  /*section 7, stack images*/
-  .phone-screens-container {
-    display: block;
-    text-align: center;
-    margin: 3% 0;
-  }
-  .phone-screens-container img {
-    width: 80%;
-  }
-  /* section 8, stack images*/
+  .wireframe-container-2,
+  .style-container,
+  .phone-screens-container,
   .finalscreen-container {
     display: block;
     text-align: center;
-    margin: 3% 0;
   }
+
+  .wireframe,
+  .style-img,
+  .phone-screens-container img,
   .finalscreen-container img {
     width: 80%;
   }
+
+  .phone-screens-container,
+  .finalscreen-container {
+    margin: 3% 0;
+  }
+
+  .phone-screens-container img,
+  .finalscreen-container img {
+    margin-top: 5%;
+  }
+
+  .wireframe-margin {
+    margin-right: 0;
+  }
+
   footer {
     margin-top: 12%;
   }
