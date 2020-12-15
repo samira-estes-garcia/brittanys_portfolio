@@ -275,11 +275,11 @@ header {
 }
 
 .blue-item {
-  width: 35%;
+  width: 15%;
   background-color: #00d9f1;
   margin-right: 5%;
   text-align: center;
-  padding: 3%;
+  padding: 2%;
   border-radius: 0.2em;
   font-weight: 500;
   color: #333;
@@ -287,7 +287,7 @@ header {
 
 .blue-item-2,
 .blue-item-4 {
-  padding-top: 4%;
+  padding-top: 3%;
 }
 
 .persona {
@@ -536,6 +536,15 @@ button:hover {
 }
 
 /* media queries */
+@media only screen and (max-width: 1000px) {
+  .blue-item {
+    width: 25%;
+  }
+  .blue-item-2,
+  .blue-item-4 {
+    padding-top: 6%;
+  }
+}
 @media only screen and (max-width: 900px) {
   .tooltiptext {
     font-size: small;
@@ -569,6 +578,24 @@ button:hover {
   .mobile-nav-items a li {
     font-size: smaller;
   }
+  /* hero stack all info */
+  .approach {
+    display: block;
+  }
+  .approach-container {
+    margin-right: 0;
+  }
+  .approach-container h2,
+  .role-container h2 {
+    margin-bottom: 0;
+  }
+  .role-container {
+    white-space: initial;
+    margin-left: 0;
+  }
+  .tools-h2 {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -580,6 +607,9 @@ button:hover {
   }
   .tooltiptext {
     font-size: x-small;
+  }
+  .blue-item {
+    width: 35%;
   }
 }
 
@@ -665,14 +695,13 @@ button:hover {
   .heading-h1 {
     font-size: x-large;
   }
-  .heading a,
-  .tools-h2 {
+  .heading a {
     margin-top: 0;
   }
   .view button {
     padding: 5% 9%;
   }
-  .approach {
+  /* .approach {
     display: block;
   }
   .approach-container {
@@ -685,7 +714,7 @@ button:hover {
   .role-container {
     white-space: initial;
     margin-left: 0;
-  }
+  } */
   /* resize section headings */
   .section-2 h1,
   .section-3 h1,
@@ -701,15 +730,11 @@ button:hover {
   .blue-box {
     flex-wrap: nowrap;
     overflow-x: auto;
+    margin: 10% 0;
   }
   .blue-item {
     flex: 0 0 auto;
-  }
-  .blue-item-2 {
-    padding-top: 6%;
-  }
-  .blue-item-4 {
-    padding-top: 9%;
+    width: 39%;
   }
   /* section 4, remove padding, stack images */
   .padding {
