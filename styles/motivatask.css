@@ -693,7 +693,7 @@ button:hover {
   .section-9 h1 {
     font-size: 1.4em;
   }
-  /* section 2 */
+  /* section 2 make blue items horizontal scroll */
   .blue-box {
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -711,6 +711,20 @@ button:hover {
   .padding {
     padding: 0;
   }
+  .userflow-container {
+    flex-direction: column;
+  }
+  .userflow {
+    width: 100%;
+  }
+  .userflow-1,
+  .userflow-3 {
+    margin-right: 0;
+  }
+  .userflow-4 {
+    margin-top: 5%;
+  }
+  /**/
   footer {
     margin-top: 12%;
   }
