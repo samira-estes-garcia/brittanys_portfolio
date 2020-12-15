@@ -666,7 +666,7 @@ button:hover {
     margin-top: 0;
   }
   .view button {
-    padding: 5%;
+    padding: 5% 9%;
   }
   .approach {
     display: block;
@@ -681,6 +681,31 @@ button:hover {
   .role-container {
     white-space: initial;
     margin-left: 0;
+  }
+  /* resize section headings */
+  .section-2 h1,
+  .section-3 h1,
+  .section-4 h1,
+  .section-5 h1,
+  .section-6 h1,
+  .section-7 h1,
+  .section-8 h1,
+  .section-9 h1 {
+    font-size: 1.4em;
+  }
+  /* section 2 */
+  .blue-box {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .blue-item {
+    flex: 0 0 auto;
+  }
+  .blue-item-2 {
+    padding-top: 6%;
+  }
+  .blue-item-4 {
+    padding-top: 9%;
   }
   /* section 4, remove padding, stack images */
   .padding {
