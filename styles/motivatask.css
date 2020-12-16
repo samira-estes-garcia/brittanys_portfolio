@@ -180,6 +180,7 @@ header {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
+  /* margin-top: 5%; */
   margin-bottom: 10%;
 }
 
@@ -612,7 +613,7 @@ button:hover {
     padding-bottom: 10%;
   }
   .heading-h1 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
   .hero p {
     font-size: medium;
@@ -707,6 +708,9 @@ button:hover {
   .tooltiptext {
     font-size: x-small;
   }
+  .heading-h1 {
+    font-size: 2em;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -742,10 +746,7 @@ button:hover {
     margin-left: 9%;
   }
   .heading-h1 {
-    font-size: x-large;
-  }
-  .heading a {
-    margin-top: 0;
+    font-size: 1.7em;
   }
   .view button {
     padding: 7%;
@@ -803,12 +804,9 @@ button:hover {
     padding: 10% 5%;
   }
   /* hero, change font sizes and button size and margin */
-  .heading-h1 {
-    font-size: x-large;
-  }
-  .heading a {
-    margin-top: 0;
-  }
+  /* .heading-h1 {
+    font-size: xx-large;
+  } */
   .view button {
     padding: 5% 9%;
   }
