@@ -614,7 +614,7 @@ button:hover {
     font-size: 2em;
   }
   .hero p {
-    font-size: smaller;
+    font-size: medium;
   }
   .challenge p {
     margin-top: 7%;
@@ -632,7 +632,7 @@ button:hover {
     margin-right: 0;
   }
   .approach-list {
-    font-size: smaller;
+    font-size: medium;
   }
   .approach-container h2,
   .role-container h2 {
@@ -811,6 +811,10 @@ button:hover {
   .view button {
     padding: 5% 9%;
   }
+  .challenge h2,
+  .approach h2 {
+    font-size: 1.7;
+  }
   /* resize section headings */
   .section-2 h1,
   .section-3 h1,
@@ -822,9 +826,16 @@ button:hover {
   .section-9 h1 {
     font-size: 1.7em;
   }
+  /* section 2 add padding to goals*/
+  .goals {
+    padding-bottom: 5%;
+  }
   /* section 4, remove padding, stack images */
   .padding {
     padding: 0;
+  }
+  .userflow {
+    margin-top: 10%;
   }
   .userflow-container {
     flex-direction: column;
@@ -837,7 +848,8 @@ button:hover {
     margin-right: 0;
   }
   .userflow-4 {
-    margin-top: 5%;
+    margin-top: 15%;
+    margin-bottom: 5%;
   }
 
   /* section 5,6,7,8 stack images*/

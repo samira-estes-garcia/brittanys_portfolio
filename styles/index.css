@@ -511,6 +511,7 @@ button:hover {
   }
   .card {
     width: 90%;
+    margin-bottom: 10%;
   }
   .card-6 {
     width: 80%;
