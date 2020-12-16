@@ -811,6 +811,9 @@ button:hover {
   .view button {
     padding: 5% 9%;
   }
+  .video-container {
+    margin-bottom: 10%;
+  }
   .challenge h2,
   .approach h2 {
     font-size: 1.7;
@@ -835,7 +838,7 @@ button:hover {
     padding: 0;
   }
   .userflow {
-    margin-top: 10%;
+    margin-top: 7%;
   }
   .userflow-container {
     flex-direction: column;
@@ -848,7 +851,7 @@ button:hover {
     margin-right: 0;
   }
   .userflow-4 {
-    margin-top: 15%;
+    margin-top: 12%;
     margin-bottom: 5%;
   }
 

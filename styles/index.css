@@ -196,6 +196,7 @@ header {
   background-repeat: no-repeat;
   background-position: 100% 45%;
   padding: 12%;
+  border-radius: 2% 2% 0 0;
 }
 
 .card-subtitle {
