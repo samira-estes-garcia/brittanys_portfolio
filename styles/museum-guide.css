@@ -11,23 +11,25 @@ body {
   background-color: #fff;
   background-image: none;
   background-position: 0px 0px;
-  /* font-family: 'Metropolis'; */
   font-family: "Avenir";
-  color: #333;
+  color: black;
   /* letter-spacing: 1px; */
 }
 
 header,
+nav,
 h1,
 h2,
-h3 {
-  font-family: "Montserrat", sans-serif;
+h3,
+.heading-h1 {
+  font-family: "Montserrat", sans-serif !important;
 }
 
 /* nav styles */
 header {
   top: 0;
   position: sticky;
+  color: #333 !important;
 }
 
 #nav {
@@ -79,6 +81,7 @@ header {
   margin-top: -4.5%;
   float: right;
   padding-right: 20%;
+  color: #333 !important;
 }
 
 .hamburger-img {
@@ -119,155 +122,185 @@ header {
   background-color: white;
 }
 
-/* hero styles */
-.hero-text-container {
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-.name-highlight {
-  background-color: #e2ebff;
-}
-
-.hero-text-container h1 {
-  margin-top: 10%;
-  font-size: 5.5vw;
-}
-
-.hero-text-container h2 {
-  font-weight: 500;
-  font-size: 3.5vw;
-  margin-top: 7%;
-}
-
-.hero-text-container p {
-  margin-top: 7%;
-  margin-bottom: 10%;
-  font-size: larger;
-  color: black;
-}
-
-/* card styles */
-
-.card {
-  margin-bottom: 7%;
-  box-shadow: 3px 3px 5px 3px #f3f3f3;
-  border-radius: 2%;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* altn */
-.card-4 {
-  background-image: url(../assets/altn-logo.jpg);
-  background-size: 55%;
-  background-repeat: no-repeat;
-  background-position: 98% 35%;
-}
-
-/* thrive */
-.card-6 {
-  background-color: #e2ebff;
-  text-align: center;
-  padding: 5%;
-  width: 50%;
-}
-
-.card > a {
-  text-decoration: none;
-  color: #333;
-}
-
-.card-img-container {
-  display: flex;
-  align-items: center;
-}
-
-.card-img-container-1 {
-  background-color: #00d9f1;
-  border-radius: 2% 2% 0 0;
-}
-
-.card-img-container-2 {
-  background-color: #f4f2ee;
-  background-image: url("../assets/museum-guide-mockup.png");
-  background-size: 53%;
-  background-repeat: no-repeat;
-  background-position: 100% 45%;
-  padding: 12%;
-  border-radius: 2% 2% 0 0;
-}
-
-.card-subtitle {
-  padding: 3%;
-  font-size: large;
-  text-align: center;
-  box-shadow: 2px 2px #f3f3f3 inset;
-  color: black;
-}
-
+/* across the whole page */
 .semi-bold {
   font-weight: 600;
   color: #333;
 }
 
-/* motivatask */
-.motivitask-mockup {
-  width: 43%;
-  border-radius: 2% 0 0 0;
+.cross-out {
+  text-decoration: line-through;
 }
 
-.motivitask-logo {
-  width: 57%;
-  border-radius: 0 2% 0 0;
+/* hero styles */
+.hero {
+  padding: 5% 20%;
 }
 
-/* musuem guide */
-.museum-guide-logo {
-  font-family: "Minion3Subhead-Medium";
-  font-weight: 100;
-  font-size: 3vw;
-  margin: 2% -6%;
+.heading {
+  display: flex;
+  margin-bottom: 5%;
+  color: #333 !important;
 }
 
-/* gather */
-.gather-logo {
-  width: 35%;
-  padding: 7.5%;
+.heading-h1 {
+  font-size: 2.7em;
+  font-weight: 600;
+  margin-right: 3%;
 }
 
-.gather-mockup {
+.heading a {
+  margin-top: 1%;
+}
+
+.view button {
+  background-color: #6082cc;
+  border: none;
+  padding: 9%;
+  border-radius: 0.2em;
+  font-size: small;
+  box-shadow: 2px 2px #f3f3f3;
+  white-space: nowrap;
+  font-family: "Montserrat", "sans-serif";
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  /* margin-top: 5%; */
+  margin-bottom: 10%;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.challenge {
+  margin-top: 5%;
+}
+
+.challenge h2,
+.approach h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #333 !important;
+}
+
+.challenge h2 {
+  margin-bottom: 5%;
+}
+
+.challenge p,
+.approach p {
+  font-size: medium;
+  margin-top: 3%;
+}
+
+.approach {
+  margin-top: 5%;
+  display: flex;
+  padding-bottom: 2%;
+}
+
+.approach-list {
+  line-height: 1.3em;
+}
+
+.approach-container {
+  margin-right: 25%;
+}
+
+.approach-container h2 {
+  margin-bottom: 8%;
+}
+
+.role-container {
+  white-space: nowrap;
+  margin-left: -5%;
+}
+
+.role-container h2 {
+  margin-bottom: 15%;
+}
+
+.tools-h2 {
+  margin-top: 35%;
+}
+
+/* section styles */
+.section-3,
+.section-5,
+.section-7 {
+  padding: 5% 20%;
+}
+.section-2,
+.section-4,
+.section-6 {
+  padding: 5% 20%;
+  background-color: #f5f6f7;
+}
+
+.section-2 h1,
+.section-3 h1,
+.section-4 h1,
+.section-5 h1,
+.section-6 h1,
+.section-7 h1 {
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-bottom: 6%;
+  margin-top: 2%;
+  color: #333;
+}
+
+.section-2 p,
+.section-3 p,
+.section-4 p,
+.section-5 p,
+.section-6 p,
+.section-7 p {
+  margin-top: 3%;
+  line-height: 1.3em;
+  font-size: medium;
+}
+
+/*section 2 styles */
+.angela-flex {
+  display: flex;
+  padding: 5% 0;
+  align-items: center;
+}
+
+.angela-p {
+  margin-right: 5%;
+}
+
+.angela-img {
   width: 50%;
 }
 
-/* altn */
-.altn-mockup {
-  width: 43%;
-  border-radius: 2% 0 0 0;
+.blue-box {
+  background-color: #5b8ad7;
+  color: #ffffff;
+  padding: 2%;
+  border-radius: 0.2em;
 }
 
-.altn-logo {
-  display: none;
-}
-
-/* tulane */
-.tulane-logo {
-  width: 65%;
-  margin: 0 auto;
-  padding: 7%;
-}
-
-/* thrive */
-.card-6 h1 {
-  font-size: 2vw;
-  font-weight: 600;
-}
-
-.card-6 h2 {
-  font-size: 1.9vw;
-  font-weight: 400;
-  margin-top: 5%;
+.text-woman,
+.mg-user-map {
+  width: 100%;
 }
 
 /* footer */
@@ -327,7 +360,7 @@ footer h3 {
   visibility: visible;
 }
 
-button {
+.resume {
   margin-right: 2%;
   background-color: #e2ebff;
   border: none;
@@ -364,15 +397,6 @@ button:hover {
   }
 }
 
-@media only screen and (max-width: 850px) {
-  .card-subtitle-1,
-  .card-subtitle-2,
-  .card-subtitle-3,
-  .card-subtitle-4 {
-    font-size: medium;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   .logo-text li a,
   #nav a {
@@ -383,7 +407,7 @@ button:hover {
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -0.7;
+    margin-bottom: -0.5;
   }
 }
 
@@ -404,17 +428,45 @@ button:hover {
   .mobile-nav-items a li {
     font-size: smaller;
   }
-  .hero-text-container h1 {
-    font-size: xx-large;
+  /* hero stack all info */
+  .hero {
+    padding-bottom: 10%;
   }
-  .hero-text-container p {
-    font-size: smaller;
+  .heading-h1 {
+    font-size: 2.5em;
   }
-  .card-subtitle-1,
-  .card-subtitle-2,
-  .card-subtitle-3,
-  .card-subtitle-4 {
-    font-size: smaller;
+  .hero p {
+    font-size: medium;
+  }
+  .challenge p {
+    margin-top: 7%;
+  }
+  .hero h2 {
+    font-size: 1.2em;
+  }
+  .approach {
+    display: block;
+  }
+  .approach p {
+    margin-top: 5%;
+  }
+  .approach-container {
+    margin-right: 0;
+  }
+  .approach-list {
+    font-size: medium;
+  }
+  .approach-container h2,
+  .role-container h2 {
+    margin-bottom: 5%;
+    margin-top: 10%;
+  }
+  .role-container {
+    white-space: initial;
+    margin-left: 0;
+  }
+  .tools-h2 {
+    margin-top: 0;
   }
 }
 
@@ -422,15 +474,14 @@ button:hover {
   .hamburger {
     margin-top: -5%;
   }
-  .card-6 h1,
-  .card-6 h2 {
-    font-size: 4vw;
-  }
   .copyright {
     font-size: x-small;
   }
   .tooltiptext {
     font-size: x-small;
+  }
+  .heading-h1 {
+    font-size: 2em;
   }
 }
 
@@ -465,6 +516,12 @@ button:hover {
   }
   button {
     margin-left: 9%;
+  }
+  .heading-h1 {
+    font-size: 1.7em;
+  }
+  .view button {
+    padding: 7%;
   }
 }
 
@@ -508,67 +565,20 @@ button:hover {
   .hamburger-img {
     width: 4.5vw;
   }
-  .hero-text-container {
-    padding-left: 5%;
-    padding-right: 5%;
+  .section {
+    padding: 10% 5%;
   }
-  /* .hero-text-container h1 {
-    font-size: x-large;
-  } */
-  .hero-text-container h2 {
-    font-size: larger;
+  /* hero, change font sizes and button size and margin */
+  .view button {
+    padding: 5% 9%;
   }
-  .hero-text-container h2 br {
-    display: none;
+  .video-container {
+    margin-top: 12%;
+    margin-bottom: 12%;
   }
-  .hero-text-container p {
-    font-size: medium;
-  }
-  #work {
-    margin-top: 10%;
-  }
-  .card {
-    width: 90%;
-    margin-bottom: 10%;
-  }
-  .card-6 {
-    width: 80%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-  .motivitask-mockup {
-    display: none;
-  }
-  .motivitask-logo {
-    margin: 0 auto;
-  }
-  .card-img-container-2 {
-    background-image: none;
-    padding: 0;
-  }
-  .card-img-container-2 h1 {
-    font-size: 7vw;
-    margin: 0 auto;
-    padding: 15%;
-  }
-  .card-4 {
-    background-image: none;
-    background-color: white;
-  }
-  .altn-mockup {
-    display: none;
-  }
-  .altn-logo {
-    display: block;
-    width: 45%;
-    margin: 0 auto;
-    padding: 10%;
-  }
-  .gather-logo {
-    margin: 0 auto;
-  }
-  .gather-mockup {
-    display: none;
+  .challenge h2,
+  .approach h2 {
+    font-size: 1.7;
   }
   footer {
     margin-top: 12%;

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/museum-guide.css" />
+    <link rel="icon" type="image/jpg" href="assets/favicon.jpg" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQ6YNYRJP2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DQ6YNYRJP2');
+    </script>
+    <title>Museum Guide Case Study</title>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+          <ul class="logo-text">
+            <li><a href="index.html">BRITTANY ESTES-GARCIA</a></li>
+          </ul>
+          <ul class="nav-menu">
+            <a href="index.html" class="active"><li>WORK</li></a>
+            <a href="about.html"><li>ABOUT</li></a>
+            <a href="#footer"><li>CONTACT</li></a>
+          </ul>
+        </nav>
+        <nav class="drop-down">
+          <div class="hamburger">
+            <img
+              src="assets/hamburger.png"
+              alt="Hamburger Menu Button"
+              class="hamburger-img"
+            />
+          </div>
+          <div class="nav-menu-mobile">
+            <ul class="mobile-nav-items">
+              <a href="index.html" class="active"><li>WORK</li></a>
+              <a href="about.html"><li>ABOUT</li></a>
+              <a href="#footer"><li>CONTACT</li></a>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="section hero">
+        <div class="heading">
+          <div class="heading-h1">Museum Guide</div>
+          <a href="#iframe" class="view"><button>View Prototype</button></a>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TUGRzKwyP-Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="challenge">
+          <h2>The Challenge</h2>
+          <p>What does the ideal art museum experience look like?</p>
+          <p>The answer to that question might be different for everyone, but through research, 
+            some common pain points were revealed. Viewers don’t feel like they’re getting the full 
+            experience when attending art museums. They would love to know more 
+            about specific artists or pieces of art outside of museum tours, but are overwhelmed with 
+            information when searching for it on their own, or can’t find exactly what they’re looking for.</p>
+          <p><span class="semi-bold">How can we create the best experience possible for art museum attendees?</span></p>
+          <p>This is the first part of a two part project – the second part will focus on the virtual experience of the museum.</p>
+        </div>
+        <div class="approach">
+          <div class="approach-container">
+            <h2>My Approach</h2>
+                <p>Through a modified Google Ventures Design Sprint, I set out to create a product that will help attendees make the most of their museum visit through the use of technology. This is focused on the McNay Art Museum in San Antonio, Texas.</p>
+                <p>Users should come away feeling like they’ve missed out on nothing and have made the most out of their visit. All of their desired information about art and artists should be easily accessible, just at their fingertips, telling a story as they are guided from exhibit to exhibit.</p>
+          </div>
+          <div class="role-container">
+            <h2>My Role</h2>
+            <p>User Researcher – UX<br>
+            Designer – UI Designer
+            </p>
+           <h2 class="tools-h2">Tools</h2>
+            <p>Sketch, Figma</p>
+          </div>
+        </div>
+      </section>
+      <section class="section section-2">
+        <h1>Day One: Understand/Map</h1>
+        <p><span class="semi-bold">I spent the first day understanding the problem</span> by synthesizing existing research, including interviews with museum goers and a cumulative persona -- Angela. Angela is twenty-three years old and a junior art director. She loves going to museums – usually alone – just to browse and take in the art. She wants to learn more so that she can have a more complete experience, but hasn’t been able to find the information she desires. </p>
+        <div class="angela-flex">
+            <div class="angela-p">
+                <p><span class="semi-bold">Angela wants easy access to fast information that will complete her art viewing experience.</span></p>
+                <p>Like Angela, users want the full experience when viewing art by knowing about it in context through bite size information. They don’t necessarily want to find out about art through a tour though – they want freedom. They’re looking to find out the “why” behind the art and reflect on it. They want to know about things such as how it was created and what methods were used.</p>
+            </div>
+            <img src="assets/angela.png" class="angela-img" alt="Image of Angela"/>
+        </div>
+        <div class="blue-box">
+            <p>“I often wonder – what would the artist tell me about this piece if they had a minute to talk to me? How cool would that be?!?” – Liza</p>
+        </div>
+        <p>The research also included input from museum tour guides, such as an interview with Lena Carroll, who works at the Metropolitan Museum of Art in New York.</p>
+        <img src="assets/text-woman.png" class="text-woman" alt="Woman next to the text 'What kind of information resonates well with guests?'" />
+        <p><span class="semi-bold">Lena talked about the importance of story when navigating art museums.</span> Visitors want to know where artists came from and their background, such as what made them become an artist. They want to know about the times they lived in as well, so that they can understand the art better and form their own opinions. She said that the goal is for visitors to reflect on the art in their own way, because, “Art work is really meant to also sort of understand yourself in an interesting way”.</p>
+        <img src="assets/mg-user-map.png" class="mg-user-map" alt="Museum Guide User Map" />
+        <p>I took that information and mapped out potential end solutions, taking into account the specifics of the sprint. The final project is mobile-based as it’s geared towards those attending the museum in person. The ultimate goal is to “increase customer satisfaction and improve the experience when viewing art”.</p>
+     </section>
+     <section class="section section-3">
+        <h1>Day Two: Sketch</h1>
+     </section>
+     <section class="section section-4">
+        <h1>Day Three: Decide</h1>
+     </section>
+     <section class="section section-5">
+        <h1>Day Four: Prototype</h1>
+     </section>
+     <section class="section section-6">
+        <h1>Day Five: Test</h1>
+     </section>
+     <section class="section section-7">
+        <h1>Reflections & Next Steps</h1>
+     </section>
+      <footer id="footer">
+        <h3>Let's Talk!</h3>
+        <div class="social-icons">
+          <button
+            type="submit"
+            onclick="window.open('assets/Brittany-Estes-Garcia-Resume.pdf')"
+            class="resume"
+          >
+            Resume
+          </button>
+          <div class="tooltip">
+            <img src="assets/mail.svg" class="mail" />
+            <span class="tooltiptext">brittany.estes.garcia@gmail.com</span>
+          </div>
+          <a
+            href="https://www.linkedin.com/in/brittany-estes-garcia/"
+            target="_blank"
+          >
+            <img src="assets/linkedin.svg" alt="LinkedIn Logo" class="linkedin" />
+          </a>
+          <a href="#">
+            <img src="assets/dribbble.svg" alt="Dribbble Logo" class="dribbble" />
+          </a>
+        </div>
+        <div class="copyright">
+          Website Design and Content
+          <span class="line-break">© 2020 Brittany Estes-Garcia</span>
+        </div>
+      </footer>
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+        crossorigin="anonymous"
+      ></script>
+    <script src="index.js"></script>
+</body>
+</html>
