@@ -287,6 +287,10 @@ header {
   margin-right: 5%;
 }
 
+.angela-p p {
+  /* font-size: smaller; */
+}
+
 .angela-img {
   width: 50%;
 }
@@ -301,6 +305,19 @@ header {
 .text-woman,
 .mg-user-map {
   width: 100%;
+}
+
+/* section 3 styles */
+.inspiration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inspo-1,
+.inspo-2,
+.inspo-3 {
+  width: 30%;
+  box-shadow: 0 0 5px 1px #f3f3f3;
 }
 
 /* footer */
