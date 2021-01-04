@@ -374,7 +374,7 @@ header {
 
 .userflow {
   width: 43%;
-  box-shadow: 0px 0px 5px 7px #f3f3f3;
+  /* box-shadow: 0px 0px 5px 7px #f3f3f3; */
   align-items: center;
 }
 
@@ -472,11 +472,10 @@ header {
 }
 
 /* footer */
-footer h3 {
+footer h1 {
   text-align: center;
-  margin-top: 7%;
+  margin-top: 5%;
   margin-bottom: 3%;
-  font-size: 2.1vw;
   font-weight: 500;
 }
 
@@ -537,8 +536,9 @@ footer h3 {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   vertical-align: text-bottom;
-  font-size: small;
+  font-size: 1em;
   box-shadow: 1px 1px #f3f3f3;
+  font-weight: 500;
 }
 
 button:hover {
@@ -554,11 +554,23 @@ button:hover {
 .copyright {
   text-align: center;
   margin: 5%;
-  font-size: small;
+  font-size: 1.2em;
   font-weight: 500;
 }
 
 /* media queries */
+@media only screen and (max-width: 1000px) {
+  footer h1 {
+    font-size: 1.7em;
+  }
+  .resume {
+    font-size: smaller;
+  }
+  .copyright {
+    font-size: medium;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .tooltiptext {
     font-size: small;
@@ -575,7 +587,7 @@ button:hover {
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -0.5;
+    margin-bottom: -0.7%;
   }
   .blue-item {
     font-size: 0.8em;
@@ -687,14 +699,21 @@ button:hover {
     margin-top: 10%;
     line-height: 1.3em;
   }
+  /* footer styles */
+  footer h1 {
+    font-size: 1.5em;
+  }
+  .resume {
+    font-size: small;
+  }
+  .copyright {
+    font-size: smaller;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   .hamburger {
     margin-top: -5%;
-  }
-  .copyright {
-    font-size: x-small;
   }
   .tooltiptext {
     font-size: x-small;
@@ -715,14 +734,8 @@ button:hover {
   #nav ul li a {
     font-size: x-small;
   }
-  footer h3 {
-    font-size: medium;
-  }
   .social-icons {
     margin-top: 5%;
-  }
-  .copyright {
-    font-size: x-small;
   }
   .mail {
     width: 5.5vw !important;
@@ -740,7 +753,7 @@ button:hover {
   .social-icons a {
     margin-right: 9%;
   }
-  button {
+  .resume {
     margin-left: 9%;
   }
   .heading-h1 {
@@ -761,9 +774,6 @@ button:hover {
   .linkedin,
   .dribbble {
     margin-bottom: -0.7%;
-  }
-  .line-break {
-    display: block;
   }
   .blue-item {
     width: 32%;
@@ -880,6 +890,10 @@ button:hover {
 
   footer {
     margin-top: 12%;
+    padding-bottom: 5%;
+  }
+  footer h1 {
+    font-size: 1.2em;
   }
   .tooltiptext {
     font-size: xx-small;
@@ -901,11 +915,13 @@ button:hover {
     margin-right: 9%;
   }
   .copyright {
-    font-size: x-small;
+    margin-top: 6.5%;
   }
-  button {
-    font-size: small;
+  .resume {
     padding: 2% 3%;
+  }
+  .line-break {
+    display: block;
   }
 }
 

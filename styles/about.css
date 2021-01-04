@@ -140,6 +140,8 @@ header {
   float: left;
   margin-top: 10%;
   margin-right: 42%;
+  animation: slideInLeft;
+  animation-duration: 1.5s;
 }
 
 .hero p {
@@ -170,11 +172,10 @@ header {
 }
 
 /* footer */
-footer h3 {
+footer h1 {
   text-align: center;
   margin-top: 7%;
   margin-bottom: 3%;
-  font-size: 2.1vw;
   font-weight: 500;
 }
 
@@ -235,8 +236,9 @@ button {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   vertical-align: text-bottom;
-  font-size: small;
+  font-size: 1em;
   box-shadow: 1px 1px #f3f3f3;
+  font-weight: 500;
 }
 
 button:hover {
@@ -252,11 +254,23 @@ button:hover {
 .copyright {
   text-align: center;
   margin: 5%;
-  font-size: small;
+  font-size: 1.2em;
   font-weight: 500;
 }
 
 /* media queries */
+@media only screen and (max-width: 1000px) {
+  footer h1 {
+    font-size: 1.7em;
+  }
+  button {
+    font-size: smaller;
+  }
+  .copyright {
+    font-size: medium;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .tooltiptext {
     font-size: small;
@@ -270,7 +284,7 @@ button:hover {
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -0.5;
+    margin-bottom: -0.5%;
   }
 }
 
@@ -291,17 +305,20 @@ button:hover {
   .mobile-nav-items a li {
     font-size: smaller;
   }
+  footer h1 {
+    font-size: 1.5em;
+  }
+  button {
+    font-size: small;
+  }
+  .copyright {
+    font-size: smaller;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   .hamburger {
     margin-top: -5%;
-  }
-  #footer h3 {
-    font-size: medium;
-  }
-  .copyright {
-    font-size: x-small;
   }
   .tooltiptext {
     font-size: x-small;
@@ -321,9 +338,6 @@ button:hover {
   .social-icons {
     margin-top: 5%;
   }
-  .copyright {
-    font-size: x-small;
-  }
   .mail {
     width: 5.5vw !important;
   }
@@ -332,7 +346,7 @@ button:hover {
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -1%;
+    margin-bottom: -0.2%;
     margin-right: 0;
   }
   .social-icons button,
@@ -362,9 +376,6 @@ button:hover {
   .linkedin,
   .dribbble {
     margin-bottom: -0.7%;
-  }
-  .line-break {
-    display: block;
   }
 }
 
@@ -412,6 +423,10 @@ button:hover {
   }
   footer {
     margin-top: 12%;
+    padding-bottom: 5%;
+  }
+  footer h1 {
+    font-size: 1.2em;
   }
   .tooltiptext {
     font-size: xx-small;
@@ -433,11 +448,13 @@ button:hover {
     margin-right: 9%;
   }
   .copyright {
-    font-size: x-small;
+    margin-top: 6.5%;
   }
   button {
-    font-size: small;
     padding: 2% 3%;
+  }
+  .line-break {
+    display: block;
   }
 }
 

@@ -536,9 +536,6 @@ button:hover {
   .dribbble {
     margin-bottom: -0.7%;
   }
-  .line-break {
-    display: block;
-  }
 }
 
 @media only screen and (max-width: 450px) {

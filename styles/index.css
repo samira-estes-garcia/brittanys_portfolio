@@ -11,10 +11,8 @@ body {
   background-color: #fff;
   background-image: none;
   background-position: 0px 0px;
-  /* font-family: 'Metropolis'; */
   font-family: "Avenir";
   color: #333;
-  /* letter-spacing: 1px; */
 }
 
 header,
@@ -33,7 +31,7 @@ header {
 #nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 2%;
+  /* margin-top: 2%; */
   padding-left: 20%;
   padding-right: 20%;
   background-color: white;
@@ -119,6 +117,11 @@ header {
   background-color: white;
 }
 
+.semi-bold {
+  font-weight: 600;
+  color: #333;
+}
+
 /* hero styles */
 .hero-text-container {
   padding-left: 20%;
@@ -131,47 +134,62 @@ header {
 
 .hero-text-container h1 {
   margin-top: 10%;
-  font-size: 5.5vw;
+  font-size: 5vw;
+  animation: bounce;
+  animation-duration: 1.5s;
 }
 
 .hero-text-container h2 {
   font-weight: 500;
-  font-size: 3.5vw;
+  font-size: 3.7vw;
   margin-top: 7%;
 }
 
 .hero-text-container p {
   margin-top: 7%;
   margin-bottom: 10%;
-  font-size: larger;
-  color: black;
+  font-family: "Avenir-Medium";
+  letter-spacing: 0.5px;
+  font-size: 1.5em;
 }
 
 /* card styles */
+#work {
+  padding: 0% 20%;
+}
 
 .card {
   margin-bottom: 7%;
-  box-shadow: 3px 3px 5px 3px #f3f3f3;
   border-radius: 2%;
-  width: 60%;
+  /* width: 60%; */
   margin-left: auto;
   margin-right: auto;
 }
 
-/* altn */
-.card-4 {
-  background-image: url(../assets/altn-logo.jpg);
-  background-size: 55%;
-  background-repeat: no-repeat;
-  background-position: 98% 35%;
+.card-info-container {
+  display: flex;
+  background-color: #f5f6f7;
+  overflow: hidden;
 }
 
-/* thrive */
-.card-6 {
-  background-color: #e2ebff;
-  text-align: center;
-  padding: 5%;
-  width: 50%;
+.card-description {
+  align-self: center;
+  margin: 0 auto;
+}
+
+.card-description-6 {
+  background-color: #f5f6f7;
+}
+
+.card-description h1 {
+  letter-spacing: 0.5px;
+  font-family: "Avenir-Heavy";
+  font-size: 1.8em;
+}
+
+.card-description p {
+  font-size: large;
+  font-family: "Avenir-Medium";
 }
 
 .card > a {
@@ -179,103 +197,57 @@ header {
   color: #333;
 }
 
-.card-img-container {
-  display: flex;
-  align-items: center;
+/* card images */
+.motivatask-mockup,
+.museum-guide-mockup {
+  width: 25vw;
 }
 
-.card-img-container-1 {
-  background-color: #00d9f1;
-  border-radius: 2% 2% 0 0;
+.gather-mockup,
+.altn-img {
+  width: 33vw;
 }
 
-.card-img-container-2 {
-  background-color: #f4f2ee;
-  background-image: url("../assets/museum-guide-mockup.png");
-  background-size: 53%;
-  background-repeat: no-repeat;
-  background-position: 100% 45%;
-  padding: 12%;
-  border-radius: 2% 2% 0 0;
+.thrive-img {
+  width: 50%;
+  object-fit: cover;
 }
 
-.card-subtitle {
-  padding: 3%;
-  font-size: large;
-  text-align: center;
-  box-shadow: 2px 2px #f3f3f3 inset;
-  color: black;
+.tulane-logo {
+  width: 55%;
+  padding: 7%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.semi-bold {
-  font-weight: 600;
-  color: #333;
+/* images margins */
+
+.motivatask-mockup {
+  margin: -1% 0%;
 }
 
-/* motivatask */
-.motivitask-mockup {
-  width: 43%;
-  border-radius: 2% 0 0 0;
-}
-
-.motivitask-logo {
-  width: 57%;
-  border-radius: 0 2% 0 0;
-}
-
-/* musuem guide */
-.museum-guide-logo {
-  font-family: "Minion3Subhead-Medium";
-  font-weight: 100;
-  font-size: 3vw;
-  margin: 2% -6%;
-}
-
-/* gather */
-.gather-logo {
-  width: 35%;
-  padding: 7.5%;
+.museum-guide-mockup {
+  margin: -3% 0% -5% 0%;
 }
 
 .gather-mockup {
-  width: 50%;
+  margin: -4% 0% -2% 0%;
 }
 
-/* altn */
-.altn-mockup {
-  width: 43%;
-  border-radius: 2% 0 0 0;
+.altn-img {
+  margin: -1% 0%;
 }
 
-.altn-logo {
-  display: none;
-}
-
-/* tulane */
-.tulane-logo {
-  width: 65%;
-  margin: 0 auto;
-  padding: 7%;
-}
-
-/* thrive */
-.card-6 h1 {
-  font-size: 2vw;
-  font-weight: 600;
-}
-
-.card-6 h2 {
-  font-size: 1.9vw;
-  font-weight: 400;
-  margin-top: 5%;
+.thrive-img {
+  margin: 0% 0% -1% 0%;
 }
 
 /* footer */
-footer h3 {
+footer h1 {
   text-align: center;
   margin-top: 7%;
   margin-bottom: 3%;
-  font-size: 2.1vw;
   font-weight: 500;
 }
 
@@ -336,8 +308,9 @@ button {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   vertical-align: text-bottom;
-  font-size: small;
+  font-size: 1em;
   box-shadow: 1px 1px #f3f3f3;
+  font-weight: 500;
 }
 
 button:hover {
@@ -353,23 +326,35 @@ button:hover {
 .copyright {
   text-align: center;
   margin: 5%;
-  font-size: small;
+  font-size: 1.2em;
   font-weight: 500;
 }
 
 /* media queries */
+@media only screen and (max-width: 1000px) {
+  .card-description h1 {
+    font-size: 1.5em;
+  }
+  .card-description p {
+    font-size: medium;
+  }
+  footer h1 {
+    font-size: 1.7em;
+  }
+  button {
+    font-size: smaller;
+  }
+  .copyright {
+    font-size: medium;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .tooltiptext {
     font-size: small;
   }
-}
-
-@media only screen and (max-width: 850px) {
-  .card-subtitle-1,
-  .card-subtitle-2,
-  .card-subtitle-3,
-  .card-subtitle-4 {
-    font-size: medium;
+  .hero-text-container p {
+    font-size: larger;
   }
 }
 
@@ -383,7 +368,19 @@ button:hover {
   }
   .linkedin,
   .dribbble {
-    margin-bottom: -0.7;
+    margin-bottom: -0.7%;
+  }
+  .altn-img {
+    width: 30vw;
+  }
+  .thrive-img {
+    width: 28vw;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .card-description h1 {
+    font-size: 1.3em;
   }
 }
 
@@ -408,12 +405,21 @@ button:hover {
     font-size: xx-large;
   }
   .hero-text-container p {
+    font-size: large;
+  }
+  .card-description h1 {
+    font-size: 1.2em;
+  }
+  .card-description p {
     font-size: smaller;
   }
-  .card-subtitle-1,
-  .card-subtitle-2,
-  .card-subtitle-3,
-  .card-subtitle-4 {
+  footer h1 {
+    font-size: 1.5em;
+  }
+  button {
+    font-size: small;
+  }
+  .copyright {
     font-size: smaller;
   }
 }
@@ -422,15 +428,17 @@ button:hover {
   .hamburger {
     margin-top: -5%;
   }
-  .card-6 h1,
-  .card-6 h2 {
-    font-size: 4vw;
-  }
-  .copyright {
-    font-size: x-small;
-  }
   .tooltiptext {
     font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card-description h1 {
+    font-size: 1em;
+  }
+  .card-description p {
+    font-size: small;
   }
 }
 
@@ -438,14 +446,8 @@ button:hover {
   #nav ul li a {
     font-size: x-small;
   }
-  footer h3 {
-    font-size: medium;
-  }
   .social-icons {
     margin-top: 5%;
-  }
-  .copyright {
-    font-size: x-small;
   }
   .mail {
     width: 5.5vw !important;
@@ -466,6 +468,22 @@ button:hover {
   button {
     margin-left: 9%;
   }
+  .card-description-4 h1,
+  .card-description-5 h1 {
+    font-size: 0.9em;
+  }
+  .hero-text-container p {
+    font-size: medium;
+  }
+  .gather-mockup {
+    width: 28vw;
+  }
+  .altn-img {
+    width: 30vw;
+  }
+  .thrive-img {
+    width: 45%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -479,8 +497,8 @@ button:hover {
   .dribbble {
     margin-bottom: -0.7%;
   }
-  .line-break {
-    display: block;
+  .hero-text-container p {
+    font-size: small;
   }
 }
 
@@ -490,6 +508,12 @@ button:hover {
   }
   .mobile-nav-items {
     font-size: small;
+  }
+  .motivatask-mockup {
+    width: 20vw;
+  }
+  .gather-mockup {
+    width: 25vw;
   }
 }
 
@@ -512,66 +536,23 @@ button:hover {
     padding-left: 5%;
     padding-right: 5%;
   }
-  /* .hero-text-container h1 {
-    font-size: x-large;
-  } */
   .hero-text-container h2 {
     font-size: larger;
   }
   .hero-text-container h2 br {
     display: none;
   }
-  .hero-text-container p {
-    font-size: medium;
-  }
   #work {
     margin-top: 10%;
-  }
-  .card {
-    width: 90%;
-    margin-bottom: 10%;
-  }
-  .card-6 {
-    width: 80%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-  .motivitask-mockup {
-    display: none;
-  }
-  .motivitask-logo {
-    margin: 0 auto;
-  }
-  .card-img-container-2 {
-    background-image: none;
-    padding: 0;
-  }
-  .card-img-container-2 h1 {
-    font-size: 7vw;
-    margin: 0 auto;
-    padding: 15%;
-  }
-  .card-4 {
-    background-image: none;
-    background-color: white;
-  }
-  .altn-mockup {
-    display: none;
-  }
-  .altn-logo {
-    display: block;
-    width: 45%;
-    margin: 0 auto;
-    padding: 10%;
-  }
-  .gather-logo {
-    margin: 0 auto;
-  }
-  .gather-mockup {
-    display: none;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   footer {
     margin-top: 12%;
+    padding-bottom: 5%;
+  }
+  footer h1 {
+    font-size: 1.2em;
   }
   .tooltiptext {
     font-size: xx-small;
@@ -593,11 +574,32 @@ button:hover {
     margin-right: 9%;
   }
   .copyright {
-    font-size: x-small;
+    margin-top: 6.5%;
   }
   button {
-    font-size: small;
     padding: 2% 3%;
+  }
+  .motivatask-mockup {
+    width: 40vw;
+  }
+  .museum-guide-mockup {
+    width: 37vw;
+  }
+  .gather-mockup,
+  .altn-img {
+    width: 42vw;
+  }
+  .thrive-img {
+    width: 45%;
+  }
+  .card-description h1 {
+    font-size: 1em;
+  }
+  .card-description p {
+    font-size: small;
+  }
+  .line-break {
+    display: block;
   }
 }
 
