@@ -198,6 +198,10 @@ header {
 }
 
 /* card images */
+.card img {
+  align-self: center;
+}
+
 .motivatask-mockup,
 .museum-guide-mockup {
   width: 25vw;
