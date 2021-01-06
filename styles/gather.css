@@ -322,6 +322,7 @@ header {
   flex-wrap: wrap;
   flex-grow: 1;
   align-items: center;
+  margin-top: 7%;
 }
 
 .wireframe,
@@ -379,6 +380,10 @@ header {
 
 .final-9 {
   margin-top: -11%;
+}
+
+#iframe iframe {
+  width: 100%;
 }
 
 /* footer */
