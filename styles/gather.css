@@ -238,10 +238,17 @@ header {
   padding: 5% 20%;
 }
 
-.section-2,
 .section-4 {
   padding: 5% 20%;
   background-color: #f5f6f7;
+}
+
+.section-2 {
+  background-color: #f5f6f7;
+}
+
+.padding {
+  padding: 5% 20%;
 }
 
 .section-2 h1,
@@ -269,14 +276,108 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: -3% 5%;
 }
 
 .inspo {
-  width: 50%;
+  width: 45%;
+}
+
+.inspo-1 {
+  margin-right: 5%;
 }
 
 .affinity-map {
   width: 100%;
+  margin: 5% 0;
+}
+
+.pink-container {
+  display: flex;
+  align-items: center;
+}
+
+.pink-box {
+  background-color: #ed2f5f;
+  width: 25%;
+  padding: 5%;
+  border-radius: 0.2em;
+  text-align: center;
+  box-sizing: border-box;
+  margin-right: 5%;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* section 3 styles */
+.userflow {
+  width: 100%;
+  box-shadow: 0 0 5px 1px #f3f3f3;
+  margin: 3% 0%;
+}
+
+.wireframe-container,
+.final-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.wireframe,
+.final {
+  width: 45%;
+  margin-bottom: 5%;
+  box-shadow: 0 0 5px 1px #f3f3f3;
+}
+
+.final {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.wireframe-1,
+.wireframe-3,
+.wireframe-5,
+.wireframe-7,
+.final-1,
+.final-3,
+.final-5,
+.final-7 {
+  margin-right: 6%;
+}
+
+.wireframe-7 {
+  align-self: start;
+}
+
+.wireframe-6 {
+  align-self: baseline;
+}
+
+.wireframe-8 {
+  margin-top: -57%;
+}
+
+.wireframe-9 {
+  margin-top: -19%;
+}
+
+/* section 4 styles */
+.gather-style,
+.gather-home {
+  width: 100%;
+}
+
+.final-7,
+.final-6 {
+  align-self: start;
+}
+
+.final-8 {
+  margin-top: -50%;
+}
+
+.final-9 {
+  margin-top: -11%;
 }
 
 /* footer */
