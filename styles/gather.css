@@ -237,6 +237,7 @@ header {
 .section-5 {
   padding: 5% 20%;
 }
+
 .section-2,
 .section-4 {
   padding: 5% 20%;
@@ -261,6 +262,21 @@ header {
   margin-top: 3%;
   line-height: 1.3em;
   font-size: medium;
+}
+
+/* section 2 styles */
+.inspo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inspo {
+  width: 50%;
+}
+
+.affinity-map {
+  width: 100%;
 }
 
 /* footer */
