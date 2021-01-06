@@ -13,7 +13,6 @@ body {
   background-position: 0px 0px;
   font-family: "Avenir";
   color: black;
-  /* letter-spacing: 1px; */
 }
 
 header,
@@ -48,7 +47,6 @@ header {
 #nav ul {
   list-style: none;
   padding: 0;
-  /* margin-right: 10%; */
   margin-right: 7%;
 }
 
@@ -128,10 +126,6 @@ header {
   color: #333;
 }
 
-.cross-out {
-  text-decoration: line-through;
-}
-
 /* hero styles */
 .hero {
   padding: 5% 20%;
@@ -150,7 +144,7 @@ header {
 }
 
 .heading a {
-  margin-top: 1%;
+  margin-top: 1.5%;
 }
 
 .view button {
@@ -173,7 +167,6 @@ header {
   padding-top: 30px;
   height: 0;
   overflow: hidden;
-  /* margin-top: 5%; */
   margin-bottom: 10%;
 }
 
