@@ -281,6 +281,7 @@ header {
   display: flex;
   padding: 5% 0;
   align-items: center;
+  margin-top: 4%;
 }
 
 .angela-p {
@@ -321,9 +322,7 @@ header {
   margin: 7% 0;
 }
 
-.inspo-1,
-.inspo-2,
-.inspo-3 {
+.inspo {
   width: 30%;
   box-shadow: 0 0 5px 1px #f3f3f3;
 }
@@ -543,6 +542,20 @@ button:hover {
   .tools-h2 {
     margin-top: 0;
   }
+  /* section 2 stack angela-flex */
+  .angela-flex {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .angela-flex p {
+    margin-right: 0;
+  }
+  .angela-img {
+    width: 80%;
+    margin: 10% auto;
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -597,6 +610,26 @@ button:hover {
   }
   .view button {
     padding: 7%;
+  }
+  /* stack section 3 images */
+  .inspiration {
+    display: block;
+  }
+  .inspo {
+    display: block;
+    width: 60%;
+    margin: 10% auto;
+  }
+  /* stack prototypes and final screens */
+  .prototype-container,
+  .final-screen-container {
+    display: block;
+  }
+  .prototype,
+  .final {
+    display: block;
+    width: 60%;
+    margin: 10% auto;
   }
 }
 
