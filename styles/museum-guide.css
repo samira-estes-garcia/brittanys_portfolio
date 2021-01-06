@@ -728,7 +728,8 @@ button:hover {
   }
   /* hero, change font sizes and button size and margin */
   .view button {
-    padding: 5% 9%;
+    /* padding: 5% 9%; */
+    padding: 5%;
   }
   .video-container {
     margin-top: 12%;
@@ -749,6 +750,17 @@ button:hover {
   .section-9 h1 {
     font-size: 1.3em;
     text-align: center;
+  }
+  /* add margins around images */
+  .angela-img {
+    margin: 15% auto;
+  }
+  .text-woman,
+  .mg-user-map {
+    margin: 7% 0 0;
+  }
+  .mcnay {
+    margin-top: 5%;
   }
   footer {
     margin-top: 12%;
