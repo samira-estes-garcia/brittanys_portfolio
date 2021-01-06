@@ -659,7 +659,8 @@ button:hover {
     margin-left: 9%;
   }
   .heading-h1 {
-    font-size: 1.7em;
+    /* font-size: 1.7em; */
+    font-size: 1.5em;
   }
   .view button {
     padding: 7%;
@@ -728,8 +729,7 @@ button:hover {
   }
   /* hero, change font sizes and button size and margin */
   .view button {
-    /* padding: 5% 9%; */
-    padding: 5%;
+    padding: 5% 9%;
   }
   .video-container {
     margin-top: 12%;
