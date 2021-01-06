@@ -320,6 +320,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 7% 0;
+  align-items: center;
 }
 
 .inspo {
