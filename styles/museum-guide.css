@@ -662,6 +662,9 @@ button:hover {
     /* font-size: 1.7em; */
     font-size: 1.5em;
   }
+  .heading a {
+    margin: 0;
+  }
   .view button {
     padding: 7%;
   }
