@@ -32,6 +32,11 @@ $("footer").click(function () {
   $(".nav-menu-mobile").hide();
 });
 
+//mobile nav clsoe on click outside motivatask.html and museum-guide.html
+$(".section").click(function() {
+  $(".nav-menu-mobile").hide();
+})
+
 //card zoom on hover
 $(".card").mouseenter(function () {
   $(this).addClass("animate__animated animate__pulse");
