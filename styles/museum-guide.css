@@ -378,11 +378,10 @@ header {
 }
 
 /* footer */
-footer h3 {
+footer h1 {
   text-align: center;
-  margin-top: 7%;
+  margin-top: 5%;
   margin-bottom: 3%;
-  font-size: 2.1vw;
   font-weight: 500;
 }
 
@@ -443,8 +442,9 @@ footer h3 {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   vertical-align: text-bottom;
-  font-size: small;
+  font-size: 1em;
   box-shadow: 1px 1px #f3f3f3;
+  font-weight: 500;
 }
 
 button:hover {
@@ -460,11 +460,23 @@ button:hover {
 .copyright {
   text-align: center;
   margin: 5%;
-  font-size: small;
+  font-size: 1.2em;
   font-weight: 500;
 }
 
 /* media queries */
+@media only screen and (max-width: 1000px) {
+  footer h1 {
+    font-size: 1.7em;
+  }
+  .resume {
+    font-size: smaller;
+  }
+  .copyright {
+    font-size: medium;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .tooltiptext {
     font-size: small;
@@ -556,14 +568,60 @@ button:hover {
     margin: 10% auto;
     display: block;
   }
+  /* section styles */
+  .section-3,
+  .section-5,
+  .section-7,
+  .section-9 {
+    padding: 10% 20%;
+  }
+  .section-2,
+  .section-6,
+  .section-8 {
+    padding: 10% 20%;
+  }
+
+  .section-2 h1,
+  .section-3 h1,
+  .section-4 h1,
+  .section-5 h1,
+  .section-6 h1,
+  .section-7 h1,
+  .section-8 h1,
+  .section-9 h1 {
+    font-weight: 600;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    color: #333;
+  }
+
+  .section-2 p,
+  .section-3 p,
+  .section-4 p,
+  .section-5 p,
+  .section-6 p,
+  .section-7 p,
+  .section-8 p,
+  .section-9 p,
+  .goals {
+    margin-top: 10%;
+    line-height: 1.3em;
+  }
+  /* footer styles */
+  footer h1 {
+    font-size: 1.5em;
+  }
+  .resume {
+    font-size: small;
+  }
+  .copyright {
+    font-size: smaller;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   .hamburger {
     margin-top: -5%;
-  }
-  .copyright {
-    font-size: x-small;
   }
   .tooltiptext {
     font-size: x-small;
@@ -577,14 +635,8 @@ button:hover {
   #nav ul li a {
     font-size: x-small;
   }
-  footer h3 {
-    font-size: medium;
-  }
   .social-icons {
     margin-top: 5%;
-  }
-  .copyright {
-    font-size: x-small;
   }
   .mail {
     width: 5.5vw !important;
@@ -602,7 +654,7 @@ button:hover {
   .social-icons a {
     margin-right: 9%;
   }
-  button {
+  .resume {
     margin-left: 9%;
   }
   .heading-h1 {
@@ -685,8 +737,24 @@ button:hover {
   .approach h2 {
     font-size: 1.7;
   }
+  /* resize section headings */
+  .section-2 h1,
+  .section-3 h1,
+  .section-4 h1,
+  .section-5 h1,
+  .section-6 h1,
+  .section-7 h1,
+  .section-8 h1,
+  .section-9 h1 {
+    font-size: 1.3em;
+    text-align: center;
+  }
   footer {
     margin-top: 12%;
+    padding-bottom: 5%;
+  }
+  footer h1 {
+    font-size: 1.2em;
   }
   .tooltiptext {
     font-size: xx-small;
@@ -708,11 +776,13 @@ button:hover {
     margin-right: 9%;
   }
   .copyright {
-    font-size: x-small;
+    margin-top: 6.5%;
   }
-  button {
-    font-size: small;
+  .resume {
     padding: 2% 3%;
+  }
+  .line-break {
+    display: block;
   }
 }
 
