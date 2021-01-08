@@ -743,6 +743,7 @@ button:hover {
   .wireframe-container,
   .final-container {
     display: block;
+    margin-top: 15%;
   }
 
   .wireframe,
