@@ -748,11 +748,17 @@ button:hover {
   .wireframe,
   .final {
     width: 100%;
-    margin: 0%;
+    margin: 0% 0% 7% 0%;
+  }
+
+  .wireframe-9,
+  .final-9 {
+    margin-bottom: 0%;
   }
 
   #iframe iframe {
     height: 55vw;
+    margin-top: 7%;
   }
 
   footer {
