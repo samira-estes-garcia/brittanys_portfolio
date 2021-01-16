@@ -402,9 +402,9 @@ button:hover {
     padding: 1%;
     border-bottom: 1px solid black;
   }
-  .mobile-nav-items a li {
+  /* .mobile-nav-items a li {
     font-size: smaller;
-  }
+  } */
   .hero-text-container h1 {
     font-size: xx-large;
   }
@@ -491,9 +491,9 @@ button:hover {
 }
 
 @media only screen and (max-width: 500px) {
-  .mobile-nav-items a li {
+  /* .mobile-nav-items a li {
     font-size: x-small;
-  }
+  } */
   .hamburger {
     margin-top: -6.5%;
   }
