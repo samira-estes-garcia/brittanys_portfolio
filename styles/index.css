@@ -217,14 +217,6 @@ header {
   object-fit: cover;
 }
 
-.tulane-logo {
-  width: 55%;
-  padding: 7%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* images margins */
 
 .motivatask-mockup {
@@ -603,10 +595,6 @@ button:hover {
   }
   .card img {
     width: 100%;
-  }
-  .tulane-logo {
-    width: 75% !important;
-    padding: 30% 0%;
   }
   .card-description {
     text-align: center;
